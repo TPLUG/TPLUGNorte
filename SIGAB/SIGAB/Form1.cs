@@ -20,6 +20,8 @@ namespace SIGAB
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Julian");
+
+            String s = "sarasa";
         }
     }
 }
