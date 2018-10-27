@@ -1,20 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SIGAB
+namespace Controles
 {
-    public partial class Form2 : Form
+    public partial class TextBoxUAI : TextBox
     {
-        public Form2()
+        public TextBoxUAI()
         {
             InitializeComponent();
+        }
+
+        private void TextBoxUAI_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
