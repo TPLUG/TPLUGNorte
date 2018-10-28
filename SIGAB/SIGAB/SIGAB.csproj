@@ -87,6 +87,12 @@
     <EmbeddedResource Include="Autoridades.resx">
       <DependentUpon>Autoridades.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BusquedaInventario.resx">
+      <DependentUpon>BusquedaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusquedaResponsable.resx">
+      <DependentUpon>BusquedaResponsable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BusquedaSignaturaTopografica.resx">
       <DependentUpon>BusquedaSignaturaTopografica.cs</DependentUpon>
     </EmbeddedResource>
