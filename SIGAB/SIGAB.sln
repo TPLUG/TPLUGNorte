@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGAB", "SIGAB\SIGAB.csproj", "{488F2DF5-8E73-4303-A2A0-3EA2FA729409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controles", "Controles\Controles.csproj", "{381B9951-8B36-49DA-B1BD-4ADBF8755291}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{488F2DF5-8E73-4303-A2A0-3EA2FA729409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{488F2DF5-8E73-4303-A2A0-3EA2FA729409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{488F2DF5-8E73-4303-A2A0-3EA2FA729409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381B9951-8B36-49DA-B1BD-4ADBF8755291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B9951-8B36-49DA-B1BD-4ADBF8755291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B9951-8B36-49DA-B1BD-4ADBF8755291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B9951-8B36-49DA-B1BD-4ADBF8755291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {452F427B-4F40-4B6D-8FD7-97B432B6EE99}
 	EndGlobalSection
 EndGlobal
