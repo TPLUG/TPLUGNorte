@@ -52,6 +52,18 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autoridades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoridades.Designer.cs">
+      <DependentUpon>Autoridades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaSignaturaTopografica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusquedaSignaturaTopografica.Designer.cs">
+      <DependentUpon>BusquedaSignaturaTopografica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Autoridades.resx">
+      <DependentUpon>Autoridades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusquedaSignaturaTopografica.resx">
+      <DependentUpon>BusquedaSignaturaTopografica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
