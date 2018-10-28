@@ -58,6 +58,18 @@
     <Compile Include="Autoridades.Designer.cs">
       <DependentUpon>Autoridades.cs</DependentUpon>
     </Compile>
+    <Compile Include="BusquedaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusquedaInventario.Designer.cs">
+      <DependentUpon>BusquedaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaResponsable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusquedaResponsable.Designer.cs">
+      <DependentUpon>BusquedaResponsable.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusquedaSignaturaTopografica.cs">
       <SubType>Form</SubType>
     </Compile>
