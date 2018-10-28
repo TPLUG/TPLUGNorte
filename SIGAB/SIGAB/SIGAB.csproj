@@ -52,6 +52,18 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusquedaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusquedaInventario.Designer.cs">
+      <DependentUpon>BusquedaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaResponsable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusquedaResponsable.Designer.cs">
+      <DependentUpon>BusquedaResponsable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
