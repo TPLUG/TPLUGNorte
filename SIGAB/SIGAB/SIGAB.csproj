@@ -58,6 +58,18 @@
     <Compile Include="Autoridades.Designer.cs">
       <DependentUpon>Autoridades.cs</DependentUpon>
     </Compile>
+    <Compile Include="BusquedaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusquedaInventario.Designer.cs">
+      <DependentUpon>BusquedaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaResponsable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusquedaResponsable.Designer.cs">
+      <DependentUpon>BusquedaResponsable.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusquedaSignaturaTopografica.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +86,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Autoridades.resx">
       <DependentUpon>Autoridades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusquedaInventario.resx">
+      <DependentUpon>BusquedaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusquedaResponsable.resx">
+      <DependentUpon>BusquedaResponsable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BusquedaSignaturaTopografica.resx">
       <DependentUpon>BusquedaSignaturaTopografica.cs</DependentUpon>
