@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SIGAB
 {
-    public partial class ListadoDocumentos : Form
+    public partial class EdiciónDocumento : Form
     {
-        public ListadoDocumentos()
+        public EdiciónDocumento()
         {
             InitializeComponent();
         }
