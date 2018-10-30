@@ -61,40 +61,74 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabResponsables = new System.Windows.Forms.TabPage();
+            this.groupBoxDatosResponsable = new System.Windows.Forms.GroupBox();
+            this.textBoxCodNormalizado = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.groupBoxTipoResponsabilidad = new System.Windows.Forms.GroupBox();
+            this.radioButtonRespProyecto = new System.Windows.Forms.RadioButton();
+            this.radioButtonRespInstitucion = new System.Windows.Forms.RadioButton();
+            this.radioButtonRespTesis = new System.Windows.Forms.RadioButton();
+            this.radioButtonRespEvento = new System.Windows.Forms.RadioButton();
+            this.radioButtonRespPersona = new System.Windows.Forms.RadioButton();
+            this.comboBoxResponsabilidad = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButtonJerSecundario = new System.Windows.Forms.RadioButton();
+            this.radioButtonJerPrincipal = new System.Windows.Forms.RadioButton();
+            this.buttonQuitarResp = new System.Windows.Forms.Button();
+            this.buttonAgregarResp = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabDescripcion = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonAceptar = new System.Windows.Forms.Button();
-            this.buttonAgregarResp = new System.Windows.Forms.Button();
-            this.buttonQuitarResp = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBoxResponsabilidad = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButtonJerSecundario = new System.Windows.Forms.RadioButton();
-            this.radioButtonJerPrincipal = new System.Windows.Forms.RadioButton();
-            this.groupBoxTipoResponsabilidad = new System.Windows.Forms.GroupBox();
-            this.radioButtonRespEvento = new System.Windows.Forms.RadioButton();
-            this.radioButtonRespPersona = new System.Windows.Forms.RadioButton();
-            this.radioButtonRespTesis = new System.Windows.Forms.RadioButton();
-            this.radioButtonRespInstitucion = new System.Windows.Forms.RadioButton();
-            this.radioButtonRespProyecto = new System.Windows.Forms.RadioButton();
-            this.groupBoxDatosResponsable = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBoxCodNormalizado = new System.Windows.Forms.TextBox();
+            this.textBoxNotas = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Responsabilidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Jerarquia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBoxEdicion = new System.Windows.Forms.GroupBox();
+            this.textBoxAreaEspecifica = new System.Windows.Forms.TextBox();
+            this.textBoxEdicion = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.buttonEditor1 = new System.Windows.Forms.Button();
+            this.buttonEditor2 = new System.Windows.Forms.Button();
+            this.buttonEditor3 = new System.Windows.Forms.Button();
+            this.groupBoxPublicacion = new System.Windows.Forms.GroupBox();
+            this.textBoxEditor1 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBoxEditor2 = new System.Windows.Forms.TextBox();
+            this.textBoxEditor3 = new System.Windows.Forms.TextBox();
+            this.textBoxRespEdicion = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBoxFechaDesde = new System.Windows.Forms.TextBox();
+            this.textBoxLugar = new System.Windows.Forms.TextBox();
+            this.textBoxFechaHasta = new System.Windows.Forms.TextBox();
+            this.comboBoxPais = new System.Windows.Forms.ComboBox();
+            this.comboBoxIdioma = new System.Windows.Forms.ComboBox();
+            this.comboBoxIdioma2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxIdioma3 = new System.Windows.Forms.ComboBox();
             this.tabEdicion.SuspendLayout();
             this.tabIdentificacion.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBoxNivelBibliografico.SuspendLayout();
             this.groupBoxTitulos.SuspendLayout();
             this.tabResponsables.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBoxTipoResponsabilidad.SuspendLayout();
             this.groupBoxDatosResponsable.SuspendLayout();
+            this.groupBoxTipoResponsabilidad.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBoxEdicion.SuspendLayout();
+            this.groupBoxPublicacion.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabEdicion
@@ -137,7 +171,7 @@
             // comboBoxSoporte
             // 
             this.comboBoxSoporte.FormattingEnabled = true;
-            this.comboBoxSoporte.Location = new System.Drawing.Point(144, 271);
+            this.comboBoxSoporte.Location = new System.Drawing.Point(679, 148);
             this.comboBoxSoporte.Name = "comboBoxSoporte";
             this.comboBoxSoporte.Size = new System.Drawing.Size(144, 21);
             this.comboBoxSoporte.TabIndex = 15;
@@ -145,7 +179,7 @@
             // comboBoxMaterial
             // 
             this.comboBoxMaterial.FormattingEnabled = true;
-            this.comboBoxMaterial.Location = new System.Drawing.Point(144, 238);
+            this.comboBoxMaterial.Location = new System.Drawing.Point(679, 115);
             this.comboBoxMaterial.Name = "comboBoxMaterial";
             this.comboBoxMaterial.Size = new System.Drawing.Size(144, 21);
             this.comboBoxMaterial.TabIndex = 14;
@@ -199,7 +233,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label5.Location = new System.Drawing.Point(26, 238);
+            this.label5.Location = new System.Drawing.Point(561, 115);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 16);
             this.label5.TabIndex = 7;
@@ -209,7 +243,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label4.Location = new System.Drawing.Point(26, 270);
+            this.label4.Location = new System.Drawing.Point(561, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 16);
             this.label4.TabIndex = 6;
@@ -351,9 +385,9 @@
             this.groupBoxTitulos.Controls.Add(this.textBoxTitulo);
             this.groupBoxTitulos.Controls.Add(this.label2);
             this.groupBoxTitulos.Controls.Add(this.label1);
-            this.groupBoxTitulos.Location = new System.Drawing.Point(29, 298);
+            this.groupBoxTitulos.Location = new System.Drawing.Point(29, 244);
             this.groupBoxTitulos.Name = "groupBoxTitulos";
-            this.groupBoxTitulos.Size = new System.Drawing.Size(378, 221);
+            this.groupBoxTitulos.Size = new System.Drawing.Size(468, 221);
             this.groupBoxTitulos.TabIndex = 0;
             this.groupBoxTitulos.TabStop = false;
             // 
@@ -380,7 +414,7 @@
             this.textBox2.Location = new System.Drawing.Point(92, 130);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(258, 49);
+            this.textBox2.Size = new System.Drawing.Size(337, 49);
             this.textBox2.TabIndex = 4;
             // 
             // label3
@@ -398,7 +432,7 @@
             this.textBox1.Location = new System.Drawing.Point(93, 75);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 49);
+            this.textBox1.Size = new System.Drawing.Size(337, 49);
             this.textBox1.TabIndex = 3;
             // 
             // textBoxTitulo
@@ -406,7 +440,7 @@
             this.textBoxTitulo.Location = new System.Drawing.Point(92, 19);
             this.textBoxTitulo.Multiline = true;
             this.textBoxTitulo.Name = "textBoxTitulo";
-            this.textBoxTitulo.Size = new System.Drawing.Size(258, 49);
+            this.textBoxTitulo.Size = new System.Drawing.Size(337, 49);
             this.textBoxTitulo.TabIndex = 2;
             // 
             // label2
@@ -432,6 +466,7 @@
             // tabResponsables
             // 
             this.tabResponsables.BackColor = System.Drawing.Color.Linen;
+            this.tabResponsables.Controls.Add(this.dataGridView1);
             this.tabResponsables.Controls.Add(this.groupBoxDatosResponsable);
             this.tabResponsables.Controls.Add(this.comboBoxResponsabilidad);
             this.tabResponsables.Controls.Add(this.label9);
@@ -445,16 +480,209 @@
             this.tabResponsables.TabIndex = 1;
             this.tabResponsables.Text = "Responsables (F5)";
             // 
+            // groupBoxDatosResponsable
+            // 
+            this.groupBoxDatosResponsable.BackColor = System.Drawing.Color.SeaShell;
+            this.groupBoxDatosResponsable.Controls.Add(this.textBoxNotas);
+            this.groupBoxDatosResponsable.Controls.Add(this.textBoxCodNormalizado);
+            this.groupBoxDatosResponsable.Controls.Add(this.label11);
+            this.groupBoxDatosResponsable.Controls.Add(this.label10);
+            this.groupBoxDatosResponsable.Controls.Add(this.groupBoxTipoResponsabilidad);
+            this.groupBoxDatosResponsable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxDatosResponsable.Location = new System.Drawing.Point(23, 321);
+            this.groupBoxDatosResponsable.Name = "groupBoxDatosResponsable";
+            this.groupBoxDatosResponsable.Size = new System.Drawing.Size(821, 174);
+            this.groupBoxDatosResponsable.TabIndex = 19;
+            this.groupBoxDatosResponsable.TabStop = false;
+            this.groupBoxDatosResponsable.Text = "Datos del responsable";
+            // 
+            // textBoxCodNormalizado
+            // 
+            this.textBoxCodNormalizado.Location = new System.Drawing.Point(168, 26);
+            this.textBoxCodNormalizado.Name = "textBoxCodNormalizado";
+            this.textBoxCodNormalizado.Size = new System.Drawing.Size(129, 21);
+            this.textBoxCodNormalizado.TabIndex = 21;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label10.Location = new System.Drawing.Point(19, 26);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(116, 16);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Cód. Normalizado";
+            // 
+            // groupBoxTipoResponsabilidad
+            // 
+            this.groupBoxTipoResponsabilidad.BackColor = System.Drawing.Color.SeaShell;
+            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespProyecto);
+            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespInstitucion);
+            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespTesis);
+            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespEvento);
+            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespPersona);
+            this.groupBoxTipoResponsabilidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxTipoResponsabilidad.Location = new System.Drawing.Point(22, 53);
+            this.groupBoxTipoResponsabilidad.Name = "groupBoxTipoResponsabilidad";
+            this.groupBoxTipoResponsabilidad.Size = new System.Drawing.Size(227, 101);
+            this.groupBoxTipoResponsabilidad.TabIndex = 18;
+            this.groupBoxTipoResponsabilidad.TabStop = false;
+            this.groupBoxTipoResponsabilidad.Text = "Tipo de responsabilidad";
+            // 
+            // radioButtonRespProyecto
+            // 
+            this.radioButtonRespProyecto.AutoSize = true;
+            this.radioButtonRespProyecto.Location = new System.Drawing.Point(6, 70);
+            this.radioButtonRespProyecto.Name = "radioButtonRespProyecto";
+            this.radioButtonRespProyecto.Size = new System.Drawing.Size(72, 19);
+            this.radioButtonRespProyecto.TabIndex = 7;
+            this.radioButtonRespProyecto.Text = "Proyecto";
+            this.radioButtonRespProyecto.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonRespInstitucion
+            // 
+            this.radioButtonRespInstitucion.AutoSize = true;
+            this.radioButtonRespInstitucion.Location = new System.Drawing.Point(6, 45);
+            this.radioButtonRespInstitucion.Name = "radioButtonRespInstitucion";
+            this.radioButtonRespInstitucion.Size = new System.Drawing.Size(80, 19);
+            this.radioButtonRespInstitucion.TabIndex = 6;
+            this.radioButtonRespInstitucion.Text = "Institución";
+            this.radioButtonRespInstitucion.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonRespTesis
+            // 
+            this.radioButtonRespTesis.AutoSize = true;
+            this.radioButtonRespTesis.Location = new System.Drawing.Point(125, 45);
+            this.radioButtonRespTesis.Name = "radioButtonRespTesis";
+            this.radioButtonRespTesis.Size = new System.Drawing.Size(54, 19);
+            this.radioButtonRespTesis.TabIndex = 5;
+            this.radioButtonRespTesis.Text = "Tesis";
+            this.radioButtonRespTesis.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonRespEvento
+            // 
+            this.radioButtonRespEvento.AutoSize = true;
+            this.radioButtonRespEvento.Location = new System.Drawing.Point(125, 20);
+            this.radioButtonRespEvento.Name = "radioButtonRespEvento";
+            this.radioButtonRespEvento.Size = new System.Drawing.Size(62, 19);
+            this.radioButtonRespEvento.TabIndex = 4;
+            this.radioButtonRespEvento.Text = "Evento";
+            this.radioButtonRespEvento.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonRespPersona
+            // 
+            this.radioButtonRespPersona.AutoSize = true;
+            this.radioButtonRespPersona.Checked = true;
+            this.radioButtonRespPersona.Location = new System.Drawing.Point(6, 20);
+            this.radioButtonRespPersona.Name = "radioButtonRespPersona";
+            this.radioButtonRespPersona.Size = new System.Drawing.Size(71, 19);
+            this.radioButtonRespPersona.TabIndex = 1;
+            this.radioButtonRespPersona.TabStop = true;
+            this.radioButtonRespPersona.Text = "Persona";
+            this.radioButtonRespPersona.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxResponsabilidad
+            // 
+            this.comboBoxResponsabilidad.FormattingEnabled = true;
+            this.comboBoxResponsabilidad.Location = new System.Drawing.Point(160, 282);
+            this.comboBoxResponsabilidad.Name = "comboBoxResponsabilidad";
+            this.comboBoxResponsabilidad.Size = new System.Drawing.Size(144, 21);
+            this.comboBoxResponsabilidad.TabIndex = 17;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label9.Location = new System.Drawing.Point(42, 282);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(112, 16);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Responsabilidad";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.SeaShell;
+            this.groupBox2.Controls.Add(this.radioButtonJerSecundario);
+            this.groupBox2.Controls.Add(this.radioButtonJerPrincipal);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(411, 262);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(227, 53);
+            this.groupBox2.TabIndex = 15;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Jerarquía";
+            // 
+            // radioButtonJerSecundario
+            // 
+            this.radioButtonJerSecundario.AutoSize = true;
+            this.radioButtonJerSecundario.Location = new System.Drawing.Point(125, 20);
+            this.radioButtonJerSecundario.Name = "radioButtonJerSecundario";
+            this.radioButtonJerSecundario.Size = new System.Drawing.Size(88, 19);
+            this.radioButtonJerSecundario.TabIndex = 4;
+            this.radioButtonJerSecundario.Text = "Secundario";
+            this.radioButtonJerSecundario.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonJerPrincipal
+            // 
+            this.radioButtonJerPrincipal.AutoSize = true;
+            this.radioButtonJerPrincipal.Checked = true;
+            this.radioButtonJerPrincipal.Location = new System.Drawing.Point(6, 20);
+            this.radioButtonJerPrincipal.Name = "radioButtonJerPrincipal";
+            this.radioButtonJerPrincipal.Size = new System.Drawing.Size(73, 19);
+            this.radioButtonJerPrincipal.TabIndex = 1;
+            this.radioButtonJerPrincipal.TabStop = true;
+            this.radioButtonJerPrincipal.Text = "Principal";
+            this.radioButtonJerPrincipal.UseVisualStyleBackColor = true;
+            // 
+            // buttonQuitarResp
+            // 
+            this.buttonQuitarResp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonQuitarResp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonQuitarResp.Location = new System.Drawing.Point(274, 15);
+            this.buttonQuitarResp.Name = "buttonQuitarResp";
+            this.buttonQuitarResp.Size = new System.Drawing.Size(102, 39);
+            this.buttonQuitarResp.TabIndex = 4;
+            this.buttonQuitarResp.Text = "Quitar";
+            this.buttonQuitarResp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonQuitarResp.UseVisualStyleBackColor = true;
+            // 
+            // buttonAgregarResp
+            // 
+            this.buttonAgregarResp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonAgregarResp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonAgregarResp.Location = new System.Drawing.Point(45, 15);
+            this.buttonAgregarResp.Name = "buttonAgregarResp";
+            this.buttonAgregarResp.Size = new System.Drawing.Size(163, 39);
+            this.buttonAgregarResp.TabIndex = 3;
+            this.buttonAgregarResp.Text = "Agregar responsable";
+            this.buttonAgregarResp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonAgregarResp.UseVisualStyleBackColor = true;
+            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Linen;
-            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.groupBoxPublicacion);
+            this.tabPage3.Controls.Add(this.textBoxAreaEspecifica);
+            this.tabPage3.Controls.Add(this.groupBoxEdicion);
+            this.tabPage3.Controls.Add(this.label12);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(877, 525);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Edición/Publicación";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(22, 57);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(107, 24);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Resp. Edición";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // tabDescripcion
             // 
@@ -520,193 +748,304 @@
             this.buttonAceptar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonAceptar.UseVisualStyleBackColor = true;
             // 
-            // buttonAgregarResp
+            // textBoxNotas
             // 
-            this.buttonAgregarResp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.buttonAgregarResp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonAgregarResp.Location = new System.Drawing.Point(23, 6);
-            this.buttonAgregarResp.Name = "buttonAgregarResp";
-            this.buttonAgregarResp.Size = new System.Drawing.Size(163, 39);
-            this.buttonAgregarResp.TabIndex = 3;
-            this.buttonAgregarResp.Text = "Agregar responsable";
-            this.buttonAgregarResp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonAgregarResp.UseVisualStyleBackColor = true;
+            this.textBoxNotas.Location = new System.Drawing.Point(388, 53);
+            this.textBoxNotas.Multiline = true;
+            this.textBoxNotas.Name = "textBoxNotas";
+            this.textBoxNotas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxNotas.Size = new System.Drawing.Size(409, 101);
+            this.textBoxNotas.TabIndex = 20;
             // 
-            // buttonQuitarResp
+            // label11
             // 
-            this.buttonQuitarResp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.buttonQuitarResp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonQuitarResp.Location = new System.Drawing.Point(255, 6);
-            this.buttonQuitarResp.Name = "buttonQuitarResp";
-            this.buttonQuitarResp.Size = new System.Drawing.Size(102, 39);
-            this.buttonQuitarResp.TabIndex = 4;
-            this.buttonQuitarResp.Text = "Quitar";
-            this.buttonQuitarResp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonQuitarResp.UseVisualStyleBackColor = true;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label11.Location = new System.Drawing.Point(385, 26);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(44, 16);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Notas";
             // 
-            // button1
+            // dataGridView1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(387, 243);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 39);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Cancelar";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Nombre,
+            this.Responsabilidad,
+            this.Jerarquia});
+            this.dataGridView1.Location = new System.Drawing.Point(23, 60);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(797, 185);
+            this.dataGridView1.TabIndex = 20;
             // 
-            // comboBoxResponsabilidad
+            // Nombre
             // 
-            this.comboBoxResponsabilidad.FormattingEnabled = true;
-            this.comboBoxResponsabilidad.Location = new System.Drawing.Point(581, 374);
-            this.comboBoxResponsabilidad.Name = "comboBoxResponsabilidad";
-            this.comboBoxResponsabilidad.Size = new System.Drawing.Size(144, 21);
-            this.comboBoxResponsabilidad.TabIndex = 17;
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            this.Nombre.Width = 250;
             // 
-            // label9
+            // Responsabilidad
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label9.Location = new System.Drawing.Point(463, 374);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(112, 16);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "Responsabilidad";
+            this.Responsabilidad.HeaderText = "Responsabilidad";
+            this.Responsabilidad.Name = "Responsabilidad";
+            this.Responsabilidad.ReadOnly = true;
+            this.Responsabilidad.Width = 150;
             // 
-            // groupBox2
+            // Jerarquia
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.SeaShell;
-            this.groupBox2.Controls.Add(this.radioButtonJerSecundario);
-            this.groupBox2.Controls.Add(this.radioButtonJerPrincipal);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(310, 179);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(227, 53);
-            this.groupBox2.TabIndex = 15;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Jerarquía";
+            this.Jerarquia.HeaderText = "Jerarquía";
+            this.Jerarquia.Name = "Jerarquia";
+            this.Jerarquia.ReadOnly = true;
+            this.Jerarquia.Width = 150;
             // 
-            // radioButtonJerSecundario
+            // groupBoxEdicion
             // 
-            this.radioButtonJerSecundario.AutoSize = true;
-            this.radioButtonJerSecundario.Location = new System.Drawing.Point(125, 20);
-            this.radioButtonJerSecundario.Name = "radioButtonJerSecundario";
-            this.radioButtonJerSecundario.Size = new System.Drawing.Size(88, 19);
-            this.radioButtonJerSecundario.TabIndex = 4;
-            this.radioButtonJerSecundario.Text = "Secundario";
-            this.radioButtonJerSecundario.UseVisualStyleBackColor = true;
+            this.groupBoxEdicion.BackColor = System.Drawing.Color.SeaShell;
+            this.groupBoxEdicion.Controls.Add(this.textBoxRespEdicion);
+            this.groupBoxEdicion.Controls.Add(this.textBoxEdicion);
+            this.groupBoxEdicion.Controls.Add(this.button1);
+            this.groupBoxEdicion.Controls.Add(this.label13);
+            this.groupBoxEdicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.groupBoxEdicion.Location = new System.Drawing.Point(26, 16);
+            this.groupBoxEdicion.Name = "groupBoxEdicion";
+            this.groupBoxEdicion.Size = new System.Drawing.Size(821, 98);
+            this.groupBoxEdicion.TabIndex = 20;
+            this.groupBoxEdicion.TabStop = false;
+            this.groupBoxEdicion.Text = "Área Edición";
             // 
-            // radioButtonJerPrincipal
+            // textBoxAreaEspecifica
             // 
-            this.radioButtonJerPrincipal.AutoSize = true;
-            this.radioButtonJerPrincipal.Checked = true;
-            this.radioButtonJerPrincipal.Location = new System.Drawing.Point(6, 20);
-            this.radioButtonJerPrincipal.Name = "radioButtonJerPrincipal";
-            this.radioButtonJerPrincipal.Size = new System.Drawing.Size(73, 19);
-            this.radioButtonJerPrincipal.TabIndex = 1;
-            this.radioButtonJerPrincipal.TabStop = true;
-            this.radioButtonJerPrincipal.Text = "Principal";
-            this.radioButtonJerPrincipal.UseVisualStyleBackColor = true;
+            this.textBoxAreaEspecifica.Location = new System.Drawing.Point(26, 409);
+            this.textBoxAreaEspecifica.Multiline = true;
+            this.textBoxAreaEspecifica.Name = "textBoxAreaEspecifica";
+            this.textBoxAreaEspecifica.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxAreaEspecifica.Size = new System.Drawing.Size(821, 101);
+            this.textBoxAreaEspecifica.TabIndex = 20;
             // 
-            // groupBoxTipoResponsabilidad
+            // textBoxEdicion
             // 
-            this.groupBoxTipoResponsabilidad.BackColor = System.Drawing.Color.SeaShell;
-            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespProyecto);
-            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespInstitucion);
-            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespTesis);
-            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespEvento);
-            this.groupBoxTipoResponsabilidad.Controls.Add(this.radioButtonRespPersona);
-            this.groupBoxTipoResponsabilidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxTipoResponsabilidad.Location = new System.Drawing.Point(22, 53);
-            this.groupBoxTipoResponsabilidad.Name = "groupBoxTipoResponsabilidad";
-            this.groupBoxTipoResponsabilidad.Size = new System.Drawing.Size(227, 101);
-            this.groupBoxTipoResponsabilidad.TabIndex = 18;
-            this.groupBoxTipoResponsabilidad.TabStop = false;
-            this.groupBoxTipoResponsabilidad.Text = "Tipo de responsabilidad";
+            this.textBoxEdicion.Location = new System.Drawing.Point(160, 26);
+            this.textBoxEdicion.Name = "textBoxEdicion";
+            this.textBoxEdicion.Size = new System.Drawing.Size(129, 21);
+            this.textBoxEdicion.TabIndex = 21;
             // 
-            // radioButtonRespEvento
+            // label12
             // 
-            this.radioButtonRespEvento.AutoSize = true;
-            this.radioButtonRespEvento.Location = new System.Drawing.Point(125, 20);
-            this.radioButtonRespEvento.Name = "radioButtonRespEvento";
-            this.radioButtonRespEvento.Size = new System.Drawing.Size(62, 19);
-            this.radioButtonRespEvento.TabIndex = 4;
-            this.radioButtonRespEvento.Text = "Evento";
-            this.radioButtonRespEvento.UseVisualStyleBackColor = true;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label12.Location = new System.Drawing.Point(33, 390);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(102, 16);
+            this.label12.TabIndex = 21;
+            this.label12.Text = "Área específica";
             // 
-            // radioButtonRespPersona
+            // label13
             // 
-            this.radioButtonRespPersona.AutoSize = true;
-            this.radioButtonRespPersona.Checked = true;
-            this.radioButtonRespPersona.Location = new System.Drawing.Point(6, 20);
-            this.radioButtonRespPersona.Name = "radioButtonRespPersona";
-            this.radioButtonRespPersona.Size = new System.Drawing.Size(71, 19);
-            this.radioButtonRespPersona.TabIndex = 1;
-            this.radioButtonRespPersona.TabStop = true;
-            this.radioButtonRespPersona.Text = "Persona";
-            this.radioButtonRespPersona.UseVisualStyleBackColor = true;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label13.Location = new System.Drawing.Point(19, 26);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(53, 16);
+            this.label13.TabIndex = 20;
+            this.label13.Text = "Edición";
             // 
-            // radioButtonRespTesis
+            // buttonEditor1
             // 
-            this.radioButtonRespTesis.AutoSize = true;
-            this.radioButtonRespTesis.Location = new System.Drawing.Point(125, 45);
-            this.radioButtonRespTesis.Name = "radioButtonRespTesis";
-            this.radioButtonRespTesis.Size = new System.Drawing.Size(54, 19);
-            this.radioButtonRespTesis.TabIndex = 5;
-            this.radioButtonRespTesis.Text = "Tesis";
-            this.radioButtonRespTesis.UseVisualStyleBackColor = true;
+            this.buttonEditor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonEditor1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditor1.Location = new System.Drawing.Point(34, 26);
+            this.buttonEditor1.Name = "buttonEditor1";
+            this.buttonEditor1.Size = new System.Drawing.Size(128, 24);
+            this.buttonEditor1.TabIndex = 21;
+            this.buttonEditor1.Text = "Editor 1";
+            this.buttonEditor1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonEditor1.UseVisualStyleBackColor = true;
             // 
-            // radioButtonRespInstitucion
+            // buttonEditor2
             // 
-            this.radioButtonRespInstitucion.AutoSize = true;
-            this.radioButtonRespInstitucion.Location = new System.Drawing.Point(6, 45);
-            this.radioButtonRespInstitucion.Name = "radioButtonRespInstitucion";
-            this.radioButtonRespInstitucion.Size = new System.Drawing.Size(80, 19);
-            this.radioButtonRespInstitucion.TabIndex = 6;
-            this.radioButtonRespInstitucion.Text = "Institución";
-            this.radioButtonRespInstitucion.UseVisualStyleBackColor = true;
+            this.buttonEditor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonEditor2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditor2.Location = new System.Drawing.Point(34, 67);
+            this.buttonEditor2.Name = "buttonEditor2";
+            this.buttonEditor2.Size = new System.Drawing.Size(128, 24);
+            this.buttonEditor2.TabIndex = 22;
+            this.buttonEditor2.Text = "Editor 2";
+            this.buttonEditor2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonEditor2.UseVisualStyleBackColor = true;
             // 
-            // radioButtonRespProyecto
+            // buttonEditor3
             // 
-            this.radioButtonRespProyecto.AutoSize = true;
-            this.radioButtonRespProyecto.Location = new System.Drawing.Point(6, 70);
-            this.radioButtonRespProyecto.Name = "radioButtonRespProyecto";
-            this.radioButtonRespProyecto.Size = new System.Drawing.Size(72, 19);
-            this.radioButtonRespProyecto.TabIndex = 7;
-            this.radioButtonRespProyecto.Text = "Proyecto";
-            this.radioButtonRespProyecto.UseVisualStyleBackColor = true;
+            this.buttonEditor3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonEditor3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditor3.Location = new System.Drawing.Point(34, 106);
+            this.buttonEditor3.Name = "buttonEditor3";
+            this.buttonEditor3.Size = new System.Drawing.Size(128, 24);
+            this.buttonEditor3.TabIndex = 23;
+            this.buttonEditor3.Text = "Editor 3";
+            this.buttonEditor3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonEditor3.UseVisualStyleBackColor = true;
             // 
-            // groupBoxDatosResponsable
+            // groupBoxPublicacion
             // 
-            this.groupBoxDatosResponsable.BackColor = System.Drawing.Color.SeaShell;
-            this.groupBoxDatosResponsable.Controls.Add(this.textBoxCodNormalizado);
-            this.groupBoxDatosResponsable.Controls.Add(this.label10);
-            this.groupBoxDatosResponsable.Controls.Add(this.groupBoxTipoResponsabilidad);
-            this.groupBoxDatosResponsable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxDatosResponsable.Location = new System.Drawing.Point(23, 321);
-            this.groupBoxDatosResponsable.Name = "groupBoxDatosResponsable";
-            this.groupBoxDatosResponsable.Size = new System.Drawing.Size(329, 166);
-            this.groupBoxDatosResponsable.TabIndex = 19;
-            this.groupBoxDatosResponsable.TabStop = false;
-            this.groupBoxDatosResponsable.Text = "Datos del responsable";
+            this.groupBoxPublicacion.BackColor = System.Drawing.Color.SeaShell;
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma3);
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma2);
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma);
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxPais);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxFechaHasta);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxLugar);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxFechaDesde);
+            this.groupBoxPublicacion.Controls.Add(this.label18);
+            this.groupBoxPublicacion.Controls.Add(this.label17);
+            this.groupBoxPublicacion.Controls.Add(this.label16);
+            this.groupBoxPublicacion.Controls.Add(this.label15);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor3);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor2);
+            this.groupBoxPublicacion.Controls.Add(this.label14);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor1);
+            this.groupBoxPublicacion.Controls.Add(this.buttonEditor3);
+            this.groupBoxPublicacion.Controls.Add(this.buttonEditor2);
+            this.groupBoxPublicacion.Controls.Add(this.buttonEditor1);
+            this.groupBoxPublicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.groupBoxPublicacion.Location = new System.Drawing.Point(26, 134);
+            this.groupBoxPublicacion.Name = "groupBoxPublicacion";
+            this.groupBoxPublicacion.Size = new System.Drawing.Size(821, 239);
+            this.groupBoxPublicacion.TabIndex = 24;
+            this.groupBoxPublicacion.TabStop = false;
+            this.groupBoxPublicacion.Text = "Área Publicación";
             // 
-            // label10
+            // textBoxEditor1
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label10.Location = new System.Drawing.Point(19, 26);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 16);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Cód. Normalizado";
+            this.textBoxEditor1.Location = new System.Drawing.Point(217, 28);
+            this.textBoxEditor1.Name = "textBoxEditor1";
+            this.textBoxEditor1.Size = new System.Drawing.Size(276, 21);
+            this.textBoxEditor1.TabIndex = 21;
             // 
-            // textBoxCodNormalizado
+            // label14
             // 
-            this.textBoxCodNormalizado.Location = new System.Drawing.Point(168, 26);
-            this.textBoxCodNormalizado.Name = "textBoxCodNormalizado";
-            this.textBoxCodNormalizado.Size = new System.Drawing.Size(129, 21);
-            this.textBoxCodNormalizado.TabIndex = 21;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label14.Location = new System.Drawing.Point(31, 143);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(88, 16);
+            this.label14.TabIndex = 21;
+            this.label14.Text = "Fecha desde";
+            // 
+            // textBoxEditor2
+            // 
+            this.textBoxEditor2.Location = new System.Drawing.Point(217, 70);
+            this.textBoxEditor2.Name = "textBoxEditor2";
+            this.textBoxEditor2.Size = new System.Drawing.Size(276, 21);
+            this.textBoxEditor2.TabIndex = 24;
+            // 
+            // textBoxEditor3
+            // 
+            this.textBoxEditor3.Location = new System.Drawing.Point(217, 108);
+            this.textBoxEditor3.Name = "textBoxEditor3";
+            this.textBoxEditor3.Size = new System.Drawing.Size(276, 21);
+            this.textBoxEditor3.TabIndex = 25;
+            // 
+            // textBoxRespEdicion
+            // 
+            this.textBoxRespEdicion.Location = new System.Drawing.Point(160, 60);
+            this.textBoxRespEdicion.Name = "textBoxRespEdicion";
+            this.textBoxRespEdicion.Size = new System.Drawing.Size(263, 21);
+            this.textBoxRespEdicion.TabIndex = 22;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label15.Location = new System.Drawing.Point(31, 176);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(42, 16);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "Lugar";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label16.Location = new System.Drawing.Point(370, 140);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(82, 16);
+            this.label16.TabIndex = 27;
+            this.label16.Text = "Fecha hasta";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label17.Location = new System.Drawing.Point(31, 206);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(64, 16);
+            this.label17.TabIndex = 28;
+            this.label17.Text = "Idioma(s)";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label18.Location = new System.Drawing.Point(370, 178);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(35, 16);
+            this.label18.TabIndex = 29;
+            this.label18.Text = "País";
+            // 
+            // textBoxFechaDesde
+            // 
+            this.textBoxFechaDesde.Location = new System.Drawing.Point(180, 140);
+            this.textBoxFechaDesde.Name = "textBoxFechaDesde";
+            this.textBoxFechaDesde.Size = new System.Drawing.Size(129, 21);
+            this.textBoxFechaDesde.TabIndex = 23;
+            // 
+            // textBoxLugar
+            // 
+            this.textBoxLugar.Location = new System.Drawing.Point(180, 173);
+            this.textBoxLugar.Name = "textBoxLugar";
+            this.textBoxLugar.Size = new System.Drawing.Size(129, 21);
+            this.textBoxLugar.TabIndex = 30;
+            // 
+            // textBoxFechaHasta
+            // 
+            this.textBoxFechaHasta.Location = new System.Drawing.Point(483, 140);
+            this.textBoxFechaHasta.Name = "textBoxFechaHasta";
+            this.textBoxFechaHasta.Size = new System.Drawing.Size(129, 21);
+            this.textBoxFechaHasta.TabIndex = 31;
+            // 
+            // comboBoxPais
+            // 
+            this.comboBoxPais.FormattingEnabled = true;
+            this.comboBoxPais.Location = new System.Drawing.Point(483, 176);
+            this.comboBoxPais.Name = "comboBoxPais";
+            this.comboBoxPais.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxPais.TabIndex = 32;
+            // 
+            // comboBoxIdioma
+            // 
+            this.comboBoxIdioma.FormattingEnabled = true;
+            this.comboBoxIdioma.Location = new System.Drawing.Point(180, 210);
+            this.comboBoxIdioma.Name = "comboBoxIdioma";
+            this.comboBoxIdioma.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxIdioma.TabIndex = 33;
+            // 
+            // comboBoxIdioma2
+            // 
+            this.comboBoxIdioma2.FormattingEnabled = true;
+            this.comboBoxIdioma2.Location = new System.Drawing.Point(347, 210);
+            this.comboBoxIdioma2.Name = "comboBoxIdioma2";
+            this.comboBoxIdioma2.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxIdioma2.TabIndex = 34;
+            // 
+            // comboBoxIdioma3
+            // 
+            this.comboBoxIdioma3.FormattingEnabled = true;
+            this.comboBoxIdioma3.Location = new System.Drawing.Point(510, 210);
+            this.comboBoxIdioma3.Name = "comboBoxIdioma3";
+            this.comboBoxIdioma3.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxIdioma3.TabIndex = 35;
             // 
             // EdiciónDocumento
             // 
@@ -731,13 +1070,19 @@
             this.groupBoxTitulos.PerformLayout();
             this.tabResponsables.ResumeLayout(false);
             this.tabResponsables.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBoxTipoResponsabilidad.ResumeLayout(false);
-            this.groupBoxTipoResponsabilidad.PerformLayout();
             this.groupBoxDatosResponsable.ResumeLayout(false);
             this.groupBoxDatosResponsable.PerformLayout();
+            this.groupBoxTipoResponsabilidad.ResumeLayout(false);
+            this.groupBoxTipoResponsabilidad.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBoxEdicion.ResumeLayout(false);
+            this.groupBoxEdicion.PerformLayout();
+            this.groupBoxPublicacion.ResumeLayout(false);
+            this.groupBoxPublicacion.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -800,5 +1145,36 @@
         private System.Windows.Forms.GroupBox groupBoxDatosResponsable;
         private System.Windows.Forms.TextBox textBoxCodNormalizado;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBoxNotas;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Responsabilidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Jerarquia;
+        private System.Windows.Forms.GroupBox groupBoxPublicacion;
+        private System.Windows.Forms.ComboBox comboBoxIdioma3;
+        private System.Windows.Forms.ComboBox comboBoxIdioma2;
+        private System.Windows.Forms.ComboBox comboBoxIdioma;
+        private System.Windows.Forms.ComboBox comboBoxPais;
+        private System.Windows.Forms.TextBox textBoxFechaHasta;
+        private System.Windows.Forms.TextBox textBoxLugar;
+        private System.Windows.Forms.TextBox textBoxFechaDesde;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBoxEditor3;
+        private System.Windows.Forms.TextBox textBoxEditor2;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBoxEditor1;
+        private System.Windows.Forms.Button buttonEditor3;
+        private System.Windows.Forms.Button buttonEditor2;
+        private System.Windows.Forms.Button buttonEditor1;
+        private System.Windows.Forms.TextBox textBoxAreaEspecifica;
+        private System.Windows.Forms.GroupBox groupBoxEdicion;
+        private System.Windows.Forms.TextBox textBoxRespEdicion;
+        private System.Windows.Forms.TextBox textBoxEdicion;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
     }
 }

@@ -90,19 +90,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cancelar.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\prohibido.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Image1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cancelar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cancelar1.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
