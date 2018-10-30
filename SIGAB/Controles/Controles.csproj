@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{381B9951-8B36-49DA-B1BD-4ADBF8755291}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controles</RootNamespace>
+    <AssemblyName>Controles</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonUAI.Designer.cs">
+      <DependentUpon>ButtonUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBoxUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckBoxUAI.Designer.cs">
+      <DependentUpon>CheckBoxUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComboBoxUAI.Designer.cs">
+      <DependentUpon>ComboBoxUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContextMenuStripUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ContextMenuStripUAI.Designer.cs">
+      <DependentUpon>ContextMenuStripUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridViewUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataGridViewUAI.Designer.cs">
+      <DependentUpon>DataGridViewUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupBoxUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GroupBoxUAI.Designer.cs">
+      <DependentUpon>GroupBoxUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabelUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LabelUAI.Designer.cs">
+      <DependentUpon>LabelUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListBoxUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListBoxUAI.Designer.cs">
+      <DependentUpon>ListBoxUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuStripUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MenuStripUAI.Designer.cs">
+      <DependentUpon>MenuStripUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDownUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NumericUpDownUAI.Designer.cs">
+      <DependentUpon>NumericUpDownUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureBoxUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PictureBoxUAI.Designer.cs">
+      <DependentUpon>PictureBoxUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButtonUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RadioButtonUAI.Designer.cs">
+      <DependentUpon>RadioButtonUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextBoxUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RichTextBoxUAI.Designer.cs">
+      <DependentUpon>RichTextBoxUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusStripUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatusStripUAI.Designer.cs">
+      <DependentUpon>StatusStripUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabControlUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControlUAI.Designer.cs">
+      <DependentUpon>TabControlUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextBoxUAI.Designer.cs">
+      <DependentUpon>TextBoxUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolStripContainerUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripContainerUAI.Designer.cs">
+      <DependentUpon>ToolStripContainerUAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolStripUAI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolStripUAI.Designer.cs">
+      <DependentUpon>ToolStripUAI.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TextBoxUAI.resx">
+      <DependentUpon>TextBoxUAI.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
