@@ -47,7 +47,7 @@
             this.labelUAI1.Name = "labelUAI1";
             this.labelUAI1.Size = new System.Drawing.Size(29, 13);
             this.labelUAI1.TabIndex = 0;
-            this.labelUAI1.Text = "Área";
+            this.labelUAI1.Text = "Á&rea";
             // 
             // cbConsultaAvanzadaArea
             // 
@@ -72,7 +72,7 @@
             this.labelUAI2.Name = "labelUAI2";
             this.labelUAI2.Size = new System.Drawing.Size(54, 13);
             this.labelUAI2.TabIndex = 3;
-            this.labelUAI2.Text = "Condición";
+            this.labelUAI2.Text = "&Condición";
             // 
             // buttonUAI1
             // 
@@ -80,7 +80,7 @@
             this.buttonUAI1.Name = "buttonUAI1";
             this.buttonUAI1.Size = new System.Drawing.Size(75, 23);
             this.buttonUAI1.TabIndex = 4;
-            this.buttonUAI1.Text = "Aceptar";
+            this.buttonUAI1.Text = "&Aceptar";
             this.buttonUAI1.UseVisualStyleBackColor = true;
             // 
             // buttonUAI2
@@ -99,7 +99,7 @@
             this.labelUAI3.Name = "labelUAI3";
             this.labelUAI3.Size = new System.Drawing.Size(40, 13);
             this.labelUAI3.TabIndex = 6;
-            this.labelUAI3.Text = "Buscar";
+            this.labelUAI3.Text = "&Buscar";
             // 
             // txtBusquedaAvanzada
             // 
@@ -119,11 +119,11 @@
             // labelUAI4
             // 
             this.labelUAI4.AutoSize = true;
-            this.labelUAI4.Location = new System.Drawing.Point(497, 51);
+            this.labelUAI4.Location = new System.Drawing.Point(496, 51);
             this.labelUAI4.Name = "labelUAI4";
             this.labelUAI4.Size = new System.Drawing.Size(51, 13);
             this.labelUAI4.TabIndex = 9;
-            this.labelUAI4.Text = "Operador";
+            this.labelUAI4.Text = "&Operador";
             // 
             // AuxiliarConsultaAvanzadaRecuperacionDocumentos
             // 

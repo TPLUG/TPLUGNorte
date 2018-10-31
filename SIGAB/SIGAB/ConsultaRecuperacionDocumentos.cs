@@ -16,5 +16,10 @@ namespace SIGAB
         {
             InitializeComponent();
         }
+
+        private void btnBuscarBasico_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
