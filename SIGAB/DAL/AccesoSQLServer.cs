@@ -42,15 +42,15 @@ namespace DAL
         // Terminar
         public SqlDataReader EjecutarQuery_DR()
         {
-            SqlDataReader dsasd = null;
-            return dsasd;
+            SqlDataReader ds = null;
+            return ds;
         }
 
         // Terminar
         public DataSet EjecutarQuery_DS()
         {
-            DataSet ds = new DataSet();
-            return ds;
+            DataSet dataSet = new DataSet();
+            return dataSet;
         }
 
 
