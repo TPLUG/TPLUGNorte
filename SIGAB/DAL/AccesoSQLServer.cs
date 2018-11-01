@@ -42,8 +42,8 @@ namespace DAL
         // Terminar
         public SqlDataReader EjecutarQuery_DR()
         {
-            SqlDataReader ds = null;
-            return ds;
+            SqlDataReader dsasd = null;
+            return dsasd;
         }
 
         // Terminar
