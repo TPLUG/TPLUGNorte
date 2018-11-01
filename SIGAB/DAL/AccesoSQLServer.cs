@@ -49,8 +49,8 @@ namespace DAL
         // Terminar
         public DataSet EjecutarQuery_DS()
         {
-            DataSet ds = new DataSet();
-            return ds;
+            DataSet dataSet = new DataSet();
+            return dataSet;
         }
 
 
