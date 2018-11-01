@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SIGAB
+namespace UI
 {
-    public partial class BusquedaResponsable : Form
+    public partial class BusquedaInventario : Form
     {
-        public BusquedaResponsable()
+        public BusquedaInventario()
         {
             InitializeComponent();
         }

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SIGAB
+namespace UI
 {
-    public partial class Personas : Form
+    public partial class BusquedaSignaturaTopografica : Form
     {
-        public Personas()
+        public BusquedaSignaturaTopografica()
         {
             InitializeComponent();
         }

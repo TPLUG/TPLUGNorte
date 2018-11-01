@@ -1,4 +1,4 @@
-﻿namespace SIGAB
+﻿namespace UI
 {
     partial class BusquedaSignaturaTopografica
     {
