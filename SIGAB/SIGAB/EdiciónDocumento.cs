@@ -16,5 +16,15 @@ namespace SIGAB
         {
             InitializeComponent();
         }
+
+        private void groupBoxUAI2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelUAI1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
