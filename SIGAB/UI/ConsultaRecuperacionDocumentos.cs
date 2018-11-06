@@ -21,5 +21,10 @@ namespace SIGAB
         {
 
         }
+
+        private void tabAvanzado_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
