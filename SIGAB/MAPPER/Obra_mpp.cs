@@ -8,5 +8,13 @@ namespace MAPPER
 {
     public class Obra_mpp
     {
+        public void Guardar(ENTIDADES.Obra_en obra)
+        {
+
+        }
+        public void Borrar(ENTIDADES.Obra_en obra)
+        {
+
+        }
     }
 }

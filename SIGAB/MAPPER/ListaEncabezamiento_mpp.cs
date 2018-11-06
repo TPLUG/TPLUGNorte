@@ -8,5 +8,13 @@ namespace MAPPER
 {
     public class ListaEncabezamiento_mpp
     {
+        public void Guardar(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
+        {
+
+        }
+        public void Borrar(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
+        {
+
+        }
     }
 }
