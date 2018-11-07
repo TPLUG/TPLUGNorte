@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using DAL;
 
 namespace MAPPER
 {
@@ -11,7 +12,13 @@ namespace MAPPER
     {
         public void Guardar(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
         {
-
+            AccesoSQLServer sql = new AccesoSQLServer();
+            List<object[]> parametros = new List<object[]>();
+            object[] param1 = { "@cod_encabezamiento", encabezadoEntidad.codEncabezamiento };
+            object[] param2 = { "@detalle", encabezadoEntidad.detalle };
+            parametros.Add(param1);
+            parametros.Add(param2);
+            //return sql.EjecutarQuery_DS("Rol_Agregar", parametros);
         }
         public void Borrar(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
         {
