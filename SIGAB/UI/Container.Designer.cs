@@ -56,9 +56,6 @@
             this.documentosYSusEjemplaresPorTítuloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porApellidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.utilidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ventanasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porGrupoYSectorConDomicilioTeléfonosYEMailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listadosDeMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porMateriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -77,6 +74,7 @@
             this.ránkingDePréstamosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estadísticasDeDocumentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recuentosDeDocumentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.utilidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.preferenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.díasLaborablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copiaDeResguardoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -89,8 +87,10 @@
             this.exportarAISOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarAHTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importaciónDeAlejandriaV6xToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventanasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minimizarTodasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restaurarTodasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contenidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarEnAyudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comoUsarLaAyudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -135,7 +135,7 @@
             this.materiasToolStripMenuItem,
             this.tesauroToolStripMenuItem});
             this.procesosTécnicosToolStripMenuItem.Name = "procesosTécnicosToolStripMenuItem";
-            this.procesosTécnicosToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.procesosTécnicosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.procesosTécnicosToolStripMenuItem.Text = "Procesos Técnicos";
             // 
             // documentosToolStripMenuItem
@@ -169,14 +169,14 @@
             // 
             this.personasToolStripMenuItem.Name = "personasToolStripMenuItem";
             this.personasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.personasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.personasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.personasToolStripMenuItem.Text = "Personas";
             // 
             // tablasToolStripMenuItem
             // 
             this.tablasToolStripMenuItem.Name = "tablasToolStripMenuItem";
             this.tablasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tablasToolStripMenuItem.Text = "Tablas";
             // 
             // consultasToolStripMenuItem
@@ -318,43 +318,6 @@
             this.porApellidoToolStripMenuItem.Size = new System.Drawing.Size(358, 22);
             this.porApellidoToolStripMenuItem.Text = "Por Apellido: Con Domicilio, Teléfonos y E-Mail ";
             // 
-            // utilidadesToolStripMenuItem
-            // 
-            this.utilidadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.preferenciasToolStripMenuItem,
-            this.díasLaborablesToolStripMenuItem,
-            this.copiaDeResguardoToolStripMenuItem,
-            this.recuperarCopiaDeResguardoToolStripMenuItem,
-            this.optimizaciónDeBesesToolStripMenuItem,
-            this.depuraciónDeCirculaciónToolStripMenuItem,
-            this.generarPalabrasClavesToolStripMenuItem,
-            this.migraciónDeDatosToolStripMenuItem});
-            this.utilidadesToolStripMenuItem.Name = "utilidadesToolStripMenuItem";
-            this.utilidadesToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.utilidadesToolStripMenuItem.Text = "Utilidades";
-            // 
-            // ventanasToolStripMenuItem
-            // 
-            this.ventanasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.minimizarTodasToolStripMenuItem,
-            this.restaurarTodasToolStripMenuItem});
-            this.ventanasToolStripMenuItem.Name = "ventanasToolStripMenuItem";
-            this.ventanasToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-            this.ventanasToolStripMenuItem.Text = "Ventanas";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contenidosToolStripMenuItem,
-            this.buscarEnAyudaToolStripMenuItem,
-            this.comoUsarLaAyudaToolStripMenuItem,
-            this.acercaDeToolStripMenuItem,
-            this.cambiarDeUsuarioToolStripMenuItem,
-            this.salirToolStripMenuItem});
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
             // porGrupoYSectorConDomicilioTeléfonosYEMailToolStripMenuItem
             // 
             this.porGrupoYSectorConDomicilioTeléfonosYEMailToolStripMenuItem.Name = "porGrupoYSectorConDomicilioTeléfonosYEMailToolStripMenuItem";
@@ -479,6 +442,21 @@
             this.recuentosDeDocumentosToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.recuentosDeDocumentosToolStripMenuItem.Text = "Recuentos de Documentos";
             // 
+            // utilidadesToolStripMenuItem
+            // 
+            this.utilidadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.preferenciasToolStripMenuItem,
+            this.díasLaborablesToolStripMenuItem,
+            this.copiaDeResguardoToolStripMenuItem,
+            this.recuperarCopiaDeResguardoToolStripMenuItem,
+            this.optimizaciónDeBesesToolStripMenuItem,
+            this.depuraciónDeCirculaciónToolStripMenuItem,
+            this.generarPalabrasClavesToolStripMenuItem,
+            this.migraciónDeDatosToolStripMenuItem});
+            this.utilidadesToolStripMenuItem.Name = "utilidadesToolStripMenuItem";
+            this.utilidadesToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.utilidadesToolStripMenuItem.Text = "Utilidades";
+            // 
             // preferenciasToolStripMenuItem
             // 
             this.preferenciasToolStripMenuItem.Name = "preferenciasToolStripMenuItem";
@@ -558,6 +536,15 @@
             this.importaciónDeAlejandriaV6xToolStripMenuItem.Size = new System.Drawing.Size(271, 22);
             this.importaciónDeAlejandriaV6xToolStripMenuItem.Text = "Importación de \'Alejandria V6.x\'";
             // 
+            // ventanasToolStripMenuItem
+            // 
+            this.ventanasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.minimizarTodasToolStripMenuItem,
+            this.restaurarTodasToolStripMenuItem});
+            this.ventanasToolStripMenuItem.Name = "ventanasToolStripMenuItem";
+            this.ventanasToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.ventanasToolStripMenuItem.Text = "Ventanas";
+            // 
             // minimizarTodasToolStripMenuItem
             // 
             this.minimizarTodasToolStripMenuItem.Name = "minimizarTodasToolStripMenuItem";
@@ -569,6 +556,19 @@
             this.restaurarTodasToolStripMenuItem.Name = "restaurarTodasToolStripMenuItem";
             this.restaurarTodasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.restaurarTodasToolStripMenuItem.Text = "Restaurar Todas";
+            // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.contenidosToolStripMenuItem,
+            this.buscarEnAyudaToolStripMenuItem,
+            this.comoUsarLaAyudaToolStripMenuItem,
+            this.acercaDeToolStripMenuItem,
+            this.cambiarDeUsuarioToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // contenidosToolStripMenuItem
             // 

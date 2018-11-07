@@ -118,6 +118,7 @@
             this.tabAvanzado.TabIndex = 0;
             this.tabAvanzado.Text = "AVANZADO";
             this.tabAvanzado.UseVisualStyleBackColor = true;
+            this.tabAvanzado.Click += new System.EventHandler(this.tabAvanzado_Click);
             // 
             // btnCondiciones
             // 

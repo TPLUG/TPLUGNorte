@@ -47,6 +47,8 @@
     <Compile Include="Operador_bll.cs" />
     <Compile Include="Pais_bll.cs" />
     <Compile Include="PatenteRol_bll.cs" />
+    <Compile Include="ListaEncabezamiento_bll.cs" />
+    <Compile Include="Obra_bll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rol_bll.cs" />
     <Compile Include="Soporte_bll.cs" />
