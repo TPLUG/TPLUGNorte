@@ -15,7 +15,7 @@ namespace MAPPER
         {
             Moneda_en m = null;
             AccesoSQLServer sql = new AccesoSQLServer();
-            SqlDataReader dr = sql.EjecutarSP_DR("Lista_moneda_Traer");
+            SqlDataReader dr = sql.EjecutarSP_DR("Lista_moneda_Traer", "cod_moneda", id);
             if (dr.Read())
             {
                 m = new Moneda_en();

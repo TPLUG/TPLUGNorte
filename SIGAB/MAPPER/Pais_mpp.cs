@@ -35,7 +35,7 @@ namespace MAPPER
         {
             Pais_en p = null;
             AccesoSQLServer sql = new AccesoSQLServer();
-            SqlDataReader dr = sql.EjecutarSP_DR("Pais_Traer");
+            SqlDataReader dr = sql.EjecutarSP_DR("Pais_Traer", "cod_pais", id);
             if (dr.Read())
             {
                 p = new Pais_en();
