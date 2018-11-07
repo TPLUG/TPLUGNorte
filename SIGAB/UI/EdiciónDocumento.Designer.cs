@@ -61,8 +61,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabResponsables = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBoxDatosResponsable = new System.Windows.Forms.GroupBox();
+            this.textBoxNotas = new System.Windows.Forms.TextBox();
             this.textBoxCodNormalizado = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBoxTipoResponsabilidad = new System.Windows.Forms.GroupBox();
             this.radioButtonRespProyecto = new System.Windows.Forms.RadioButton();
@@ -78,57 +81,57 @@
             this.buttonQuitarResp = new System.Windows.Forms.Button();
             this.buttonAgregarResp = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBoxPublicacion = new System.Windows.Forms.GroupBox();
+            this.comboBoxIdioma3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxIdioma2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxIdioma = new System.Windows.Forms.ComboBox();
+            this.comboBoxPais = new System.Windows.Forms.ComboBox();
+            this.textBoxFechaHasta = new System.Windows.Forms.TextBox();
+            this.textBoxLugar = new System.Windows.Forms.TextBox();
+            this.textBoxFechaDesde = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBoxEditor3 = new System.Windows.Forms.TextBox();
+            this.textBoxEditor2 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBoxEditor1 = new System.Windows.Forms.TextBox();
+            this.buttonEditor3 = new System.Windows.Forms.Button();
+            this.buttonEditor2 = new System.Windows.Forms.Button();
+            this.buttonEditor1 = new System.Windows.Forms.Button();
+            this.textBoxAreaEspecifica = new System.Windows.Forms.TextBox();
+            this.groupBoxEdicion = new System.Windows.Forms.GroupBox();
+            this.textBoxRespEdicion = new System.Windows.Forms.TextBox();
+            this.textBoxEdicion = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.tabDescripcion = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonAceptar = new System.Windows.Forms.Button();
-            this.textBoxNotas = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label19 = new System.Windows.Forms.Label();
+            this.pictureBoxUAI_Portada = new Controles.PictureBoxUAI();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Responsabilidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Jerarquia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBoxEdicion = new System.Windows.Forms.GroupBox();
-            this.textBoxAreaEspecifica = new System.Windows.Forms.TextBox();
-            this.textBoxEdicion = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.buttonEditor1 = new System.Windows.Forms.Button();
-            this.buttonEditor2 = new System.Windows.Forms.Button();
-            this.buttonEditor3 = new System.Windows.Forms.Button();
-            this.groupBoxPublicacion = new System.Windows.Forms.GroupBox();
-            this.textBoxEditor1 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBoxEditor2 = new System.Windows.Forms.TextBox();
-            this.textBoxEditor3 = new System.Windows.Forms.TextBox();
-            this.textBoxRespEdicion = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBoxFechaDesde = new System.Windows.Forms.TextBox();
-            this.textBoxLugar = new System.Windows.Forms.TextBox();
-            this.textBoxFechaHasta = new System.Windows.Forms.TextBox();
-            this.comboBoxPais = new System.Windows.Forms.ComboBox();
-            this.comboBoxIdioma = new System.Windows.Forms.ComboBox();
-            this.comboBoxIdioma2 = new System.Windows.Forms.ComboBox();
-            this.comboBoxIdioma3 = new System.Windows.Forms.ComboBox();
             this.tabEdicion.SuspendLayout();
             this.tabIdentificacion.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBoxNivelBibliografico.SuspendLayout();
             this.groupBoxTitulos.SuspendLayout();
             this.tabResponsables.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBoxDatosResponsable.SuspendLayout();
             this.groupBoxTipoResponsabilidad.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBoxEdicion.SuspendLayout();
             this.groupBoxPublicacion.SuspendLayout();
+            this.groupBoxEdicion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUAI_Portada)).BeginInit();
             this.SuspendLayout();
             // 
             // tabEdicion
@@ -149,6 +152,8 @@
             // tabIdentificacion
             // 
             this.tabIdentificacion.BackColor = System.Drawing.Color.Linen;
+            this.tabIdentificacion.Controls.Add(this.pictureBoxUAI_Portada);
+            this.tabIdentificacion.Controls.Add(this.label19);
             this.tabIdentificacion.Controls.Add(this.comboBoxSoporte);
             this.tabIdentificacion.Controls.Add(this.comboBoxMaterial);
             this.tabIdentificacion.Controls.Add(this.textBoxISBN);
@@ -480,6 +485,18 @@
             this.tabResponsables.TabIndex = 1;
             this.tabResponsables.Text = "Responsables (F5)";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Nombre,
+            this.Responsabilidad,
+            this.Jerarquia});
+            this.dataGridView1.Location = new System.Drawing.Point(23, 60);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(797, 185);
+            this.dataGridView1.TabIndex = 20;
+            // 
             // groupBoxDatosResponsable
             // 
             this.groupBoxDatosResponsable.BackColor = System.Drawing.Color.SeaShell;
@@ -496,12 +513,31 @@
             this.groupBoxDatosResponsable.TabStop = false;
             this.groupBoxDatosResponsable.Text = "Datos del responsable";
             // 
+            // textBoxNotas
+            // 
+            this.textBoxNotas.Location = new System.Drawing.Point(388, 53);
+            this.textBoxNotas.Multiline = true;
+            this.textBoxNotas.Name = "textBoxNotas";
+            this.textBoxNotas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxNotas.Size = new System.Drawing.Size(409, 101);
+            this.textBoxNotas.TabIndex = 20;
+            // 
             // textBoxCodNormalizado
             // 
             this.textBoxCodNormalizado.Location = new System.Drawing.Point(168, 26);
             this.textBoxCodNormalizado.Name = "textBoxCodNormalizado";
             this.textBoxCodNormalizado.Size = new System.Drawing.Size(129, 21);
             this.textBoxCodNormalizado.TabIndex = 21;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label11.Location = new System.Drawing.Point(385, 26);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(44, 16);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Notas";
             // 
             // label10
             // 
@@ -672,6 +708,233 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Edición/Publicación";
             // 
+            // groupBoxPublicacion
+            // 
+            this.groupBoxPublicacion.BackColor = System.Drawing.Color.SeaShell;
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma3);
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma2);
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma);
+            this.groupBoxPublicacion.Controls.Add(this.comboBoxPais);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxFechaHasta);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxLugar);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxFechaDesde);
+            this.groupBoxPublicacion.Controls.Add(this.label18);
+            this.groupBoxPublicacion.Controls.Add(this.label17);
+            this.groupBoxPublicacion.Controls.Add(this.label16);
+            this.groupBoxPublicacion.Controls.Add(this.label15);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor3);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor2);
+            this.groupBoxPublicacion.Controls.Add(this.label14);
+            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor1);
+            this.groupBoxPublicacion.Controls.Add(this.buttonEditor3);
+            this.groupBoxPublicacion.Controls.Add(this.buttonEditor2);
+            this.groupBoxPublicacion.Controls.Add(this.buttonEditor1);
+            this.groupBoxPublicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.groupBoxPublicacion.Location = new System.Drawing.Point(26, 134);
+            this.groupBoxPublicacion.Name = "groupBoxPublicacion";
+            this.groupBoxPublicacion.Size = new System.Drawing.Size(821, 239);
+            this.groupBoxPublicacion.TabIndex = 24;
+            this.groupBoxPublicacion.TabStop = false;
+            this.groupBoxPublicacion.Text = "Área Publicación";
+            // 
+            // comboBoxIdioma3
+            // 
+            this.comboBoxIdioma3.FormattingEnabled = true;
+            this.comboBoxIdioma3.Location = new System.Drawing.Point(510, 210);
+            this.comboBoxIdioma3.Name = "comboBoxIdioma3";
+            this.comboBoxIdioma3.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxIdioma3.TabIndex = 35;
+            // 
+            // comboBoxIdioma2
+            // 
+            this.comboBoxIdioma2.FormattingEnabled = true;
+            this.comboBoxIdioma2.Location = new System.Drawing.Point(347, 210);
+            this.comboBoxIdioma2.Name = "comboBoxIdioma2";
+            this.comboBoxIdioma2.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxIdioma2.TabIndex = 34;
+            // 
+            // comboBoxIdioma
+            // 
+            this.comboBoxIdioma.FormattingEnabled = true;
+            this.comboBoxIdioma.Location = new System.Drawing.Point(180, 210);
+            this.comboBoxIdioma.Name = "comboBoxIdioma";
+            this.comboBoxIdioma.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxIdioma.TabIndex = 33;
+            // 
+            // comboBoxPais
+            // 
+            this.comboBoxPais.FormattingEnabled = true;
+            this.comboBoxPais.Location = new System.Drawing.Point(483, 176);
+            this.comboBoxPais.Name = "comboBoxPais";
+            this.comboBoxPais.Size = new System.Drawing.Size(129, 23);
+            this.comboBoxPais.TabIndex = 32;
+            // 
+            // textBoxFechaHasta
+            // 
+            this.textBoxFechaHasta.Location = new System.Drawing.Point(483, 140);
+            this.textBoxFechaHasta.Name = "textBoxFechaHasta";
+            this.textBoxFechaHasta.Size = new System.Drawing.Size(129, 21);
+            this.textBoxFechaHasta.TabIndex = 31;
+            // 
+            // textBoxLugar
+            // 
+            this.textBoxLugar.Location = new System.Drawing.Point(180, 173);
+            this.textBoxLugar.Name = "textBoxLugar";
+            this.textBoxLugar.Size = new System.Drawing.Size(129, 21);
+            this.textBoxLugar.TabIndex = 30;
+            // 
+            // textBoxFechaDesde
+            // 
+            this.textBoxFechaDesde.Location = new System.Drawing.Point(180, 140);
+            this.textBoxFechaDesde.Name = "textBoxFechaDesde";
+            this.textBoxFechaDesde.Size = new System.Drawing.Size(129, 21);
+            this.textBoxFechaDesde.TabIndex = 23;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label18.Location = new System.Drawing.Point(370, 178);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(35, 16);
+            this.label18.TabIndex = 29;
+            this.label18.Text = "País";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label17.Location = new System.Drawing.Point(31, 206);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(64, 16);
+            this.label17.TabIndex = 28;
+            this.label17.Text = "Idioma(s)";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label16.Location = new System.Drawing.Point(370, 140);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(82, 16);
+            this.label16.TabIndex = 27;
+            this.label16.Text = "Fecha hasta";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label15.Location = new System.Drawing.Point(31, 176);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(42, 16);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "Lugar";
+            // 
+            // textBoxEditor3
+            // 
+            this.textBoxEditor3.Location = new System.Drawing.Point(217, 108);
+            this.textBoxEditor3.Name = "textBoxEditor3";
+            this.textBoxEditor3.Size = new System.Drawing.Size(276, 21);
+            this.textBoxEditor3.TabIndex = 25;
+            // 
+            // textBoxEditor2
+            // 
+            this.textBoxEditor2.Location = new System.Drawing.Point(217, 70);
+            this.textBoxEditor2.Name = "textBoxEditor2";
+            this.textBoxEditor2.Size = new System.Drawing.Size(276, 21);
+            this.textBoxEditor2.TabIndex = 24;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label14.Location = new System.Drawing.Point(31, 143);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(88, 16);
+            this.label14.TabIndex = 21;
+            this.label14.Text = "Fecha desde";
+            // 
+            // textBoxEditor1
+            // 
+            this.textBoxEditor1.Location = new System.Drawing.Point(217, 28);
+            this.textBoxEditor1.Name = "textBoxEditor1";
+            this.textBoxEditor1.Size = new System.Drawing.Size(276, 21);
+            this.textBoxEditor1.TabIndex = 21;
+            // 
+            // buttonEditor3
+            // 
+            this.buttonEditor3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonEditor3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditor3.Location = new System.Drawing.Point(34, 106);
+            this.buttonEditor3.Name = "buttonEditor3";
+            this.buttonEditor3.Size = new System.Drawing.Size(128, 24);
+            this.buttonEditor3.TabIndex = 23;
+            this.buttonEditor3.Text = "Editor 3";
+            this.buttonEditor3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonEditor3.UseVisualStyleBackColor = true;
+            // 
+            // buttonEditor2
+            // 
+            this.buttonEditor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonEditor2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditor2.Location = new System.Drawing.Point(34, 67);
+            this.buttonEditor2.Name = "buttonEditor2";
+            this.buttonEditor2.Size = new System.Drawing.Size(128, 24);
+            this.buttonEditor2.TabIndex = 22;
+            this.buttonEditor2.Text = "Editor 2";
+            this.buttonEditor2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonEditor2.UseVisualStyleBackColor = true;
+            // 
+            // buttonEditor1
+            // 
+            this.buttonEditor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.buttonEditor1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonEditor1.Location = new System.Drawing.Point(34, 26);
+            this.buttonEditor1.Name = "buttonEditor1";
+            this.buttonEditor1.Size = new System.Drawing.Size(128, 24);
+            this.buttonEditor1.TabIndex = 21;
+            this.buttonEditor1.Text = "Editor 1";
+            this.buttonEditor1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonEditor1.UseVisualStyleBackColor = true;
+            // 
+            // textBoxAreaEspecifica
+            // 
+            this.textBoxAreaEspecifica.Location = new System.Drawing.Point(26, 409);
+            this.textBoxAreaEspecifica.Multiline = true;
+            this.textBoxAreaEspecifica.Name = "textBoxAreaEspecifica";
+            this.textBoxAreaEspecifica.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxAreaEspecifica.Size = new System.Drawing.Size(821, 101);
+            this.textBoxAreaEspecifica.TabIndex = 20;
+            // 
+            // groupBoxEdicion
+            // 
+            this.groupBoxEdicion.BackColor = System.Drawing.Color.SeaShell;
+            this.groupBoxEdicion.Controls.Add(this.textBoxRespEdicion);
+            this.groupBoxEdicion.Controls.Add(this.textBoxEdicion);
+            this.groupBoxEdicion.Controls.Add(this.button1);
+            this.groupBoxEdicion.Controls.Add(this.label13);
+            this.groupBoxEdicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.groupBoxEdicion.Location = new System.Drawing.Point(26, 16);
+            this.groupBoxEdicion.Name = "groupBoxEdicion";
+            this.groupBoxEdicion.Size = new System.Drawing.Size(821, 98);
+            this.groupBoxEdicion.TabIndex = 20;
+            this.groupBoxEdicion.TabStop = false;
+            this.groupBoxEdicion.Text = "Área Edición";
+            // 
+            // textBoxRespEdicion
+            // 
+            this.textBoxRespEdicion.Location = new System.Drawing.Point(160, 60);
+            this.textBoxRespEdicion.Name = "textBoxRespEdicion";
+            this.textBoxRespEdicion.Size = new System.Drawing.Size(263, 21);
+            this.textBoxRespEdicion.TabIndex = 22;
+            // 
+            // textBoxEdicion
+            // 
+            this.textBoxEdicion.Location = new System.Drawing.Point(160, 26);
+            this.textBoxEdicion.Name = "textBoxEdicion";
+            this.textBoxEdicion.Size = new System.Drawing.Size(129, 21);
+            this.textBoxEdicion.TabIndex = 21;
+            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
@@ -683,6 +946,26 @@
             this.button1.Text = "Resp. Edición";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label13.Location = new System.Drawing.Point(19, 26);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(53, 16);
+            this.label13.TabIndex = 20;
+            this.label13.Text = "Edición";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label12.Location = new System.Drawing.Point(33, 390);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(102, 16);
+            this.label12.TabIndex = 21;
+            this.label12.Text = "Área específica";
             // 
             // tabDescripcion
             // 
@@ -748,304 +1031,45 @@
             this.buttonAceptar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonAceptar.UseVisualStyleBackColor = true;
             // 
-            // textBoxNotas
+            // label19
             // 
-            this.textBoxNotas.Location = new System.Drawing.Point(388, 53);
-            this.textBoxNotas.Multiline = true;
-            this.textBoxNotas.Name = "textBoxNotas";
-            this.textBoxNotas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxNotas.Size = new System.Drawing.Size(409, 101);
-            this.textBoxNotas.TabIndex = 20;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label19.Location = new System.Drawing.Point(690, 235);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(56, 16);
+            this.label19.TabIndex = 16;
+            this.label19.Text = "Portada";
             // 
-            // label11
+            // pictureBoxUAI_Portada
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label11.Location = new System.Drawing.Point(385, 26);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 16);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Notas";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nombre,
-            this.Responsabilidad,
-            this.Jerarquia});
-            this.dataGridView1.Location = new System.Drawing.Point(23, 60);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(797, 185);
-            this.dataGridView1.TabIndex = 20;
+            this.pictureBoxUAI_Portada.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.pictureBoxUAI_Portada.Location = new System.Drawing.Point(614, 254);
+            this.pictureBoxUAI_Portada.Name = "pictureBoxUAI_Portada";
+            this.pictureBoxUAI_Portada.Size = new System.Drawing.Size(210, 211);
+            this.pictureBoxUAI_Portada.TabIndex = 18;
+            this.pictureBoxUAI_Portada.TabStop = false;
             // 
             // Nombre
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
             this.Nombre.ReadOnly = true;
-            this.Nombre.Width = 250;
+            this.Nombre.Width = 270;
             // 
             // Responsabilidad
             // 
             this.Responsabilidad.HeaderText = "Responsabilidad";
             this.Responsabilidad.Name = "Responsabilidad";
             this.Responsabilidad.ReadOnly = true;
-            this.Responsabilidad.Width = 150;
+            this.Responsabilidad.Width = 180;
             // 
             // Jerarquia
             // 
             this.Jerarquia.HeaderText = "Jerarquía";
             this.Jerarquia.Name = "Jerarquia";
             this.Jerarquia.ReadOnly = true;
-            this.Jerarquia.Width = 150;
-            // 
-            // groupBoxEdicion
-            // 
-            this.groupBoxEdicion.BackColor = System.Drawing.Color.SeaShell;
-            this.groupBoxEdicion.Controls.Add(this.textBoxRespEdicion);
-            this.groupBoxEdicion.Controls.Add(this.textBoxEdicion);
-            this.groupBoxEdicion.Controls.Add(this.button1);
-            this.groupBoxEdicion.Controls.Add(this.label13);
-            this.groupBoxEdicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.groupBoxEdicion.Location = new System.Drawing.Point(26, 16);
-            this.groupBoxEdicion.Name = "groupBoxEdicion";
-            this.groupBoxEdicion.Size = new System.Drawing.Size(821, 98);
-            this.groupBoxEdicion.TabIndex = 20;
-            this.groupBoxEdicion.TabStop = false;
-            this.groupBoxEdicion.Text = "Área Edición";
-            // 
-            // textBoxAreaEspecifica
-            // 
-            this.textBoxAreaEspecifica.Location = new System.Drawing.Point(26, 409);
-            this.textBoxAreaEspecifica.Multiline = true;
-            this.textBoxAreaEspecifica.Name = "textBoxAreaEspecifica";
-            this.textBoxAreaEspecifica.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxAreaEspecifica.Size = new System.Drawing.Size(821, 101);
-            this.textBoxAreaEspecifica.TabIndex = 20;
-            // 
-            // textBoxEdicion
-            // 
-            this.textBoxEdicion.Location = new System.Drawing.Point(160, 26);
-            this.textBoxEdicion.Name = "textBoxEdicion";
-            this.textBoxEdicion.Size = new System.Drawing.Size(129, 21);
-            this.textBoxEdicion.TabIndex = 21;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label12.Location = new System.Drawing.Point(33, 390);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(102, 16);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "Área específica";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label13.Location = new System.Drawing.Point(19, 26);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(53, 16);
-            this.label13.TabIndex = 20;
-            this.label13.Text = "Edición";
-            // 
-            // buttonEditor1
-            // 
-            this.buttonEditor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.buttonEditor1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditor1.Location = new System.Drawing.Point(34, 26);
-            this.buttonEditor1.Name = "buttonEditor1";
-            this.buttonEditor1.Size = new System.Drawing.Size(128, 24);
-            this.buttonEditor1.TabIndex = 21;
-            this.buttonEditor1.Text = "Editor 1";
-            this.buttonEditor1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonEditor1.UseVisualStyleBackColor = true;
-            // 
-            // buttonEditor2
-            // 
-            this.buttonEditor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.buttonEditor2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditor2.Location = new System.Drawing.Point(34, 67);
-            this.buttonEditor2.Name = "buttonEditor2";
-            this.buttonEditor2.Size = new System.Drawing.Size(128, 24);
-            this.buttonEditor2.TabIndex = 22;
-            this.buttonEditor2.Text = "Editor 2";
-            this.buttonEditor2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonEditor2.UseVisualStyleBackColor = true;
-            // 
-            // buttonEditor3
-            // 
-            this.buttonEditor3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.buttonEditor3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEditor3.Location = new System.Drawing.Point(34, 106);
-            this.buttonEditor3.Name = "buttonEditor3";
-            this.buttonEditor3.Size = new System.Drawing.Size(128, 24);
-            this.buttonEditor3.TabIndex = 23;
-            this.buttonEditor3.Text = "Editor 3";
-            this.buttonEditor3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonEditor3.UseVisualStyleBackColor = true;
-            // 
-            // groupBoxPublicacion
-            // 
-            this.groupBoxPublicacion.BackColor = System.Drawing.Color.SeaShell;
-            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma3);
-            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma2);
-            this.groupBoxPublicacion.Controls.Add(this.comboBoxIdioma);
-            this.groupBoxPublicacion.Controls.Add(this.comboBoxPais);
-            this.groupBoxPublicacion.Controls.Add(this.textBoxFechaHasta);
-            this.groupBoxPublicacion.Controls.Add(this.textBoxLugar);
-            this.groupBoxPublicacion.Controls.Add(this.textBoxFechaDesde);
-            this.groupBoxPublicacion.Controls.Add(this.label18);
-            this.groupBoxPublicacion.Controls.Add(this.label17);
-            this.groupBoxPublicacion.Controls.Add(this.label16);
-            this.groupBoxPublicacion.Controls.Add(this.label15);
-            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor3);
-            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor2);
-            this.groupBoxPublicacion.Controls.Add(this.label14);
-            this.groupBoxPublicacion.Controls.Add(this.textBoxEditor1);
-            this.groupBoxPublicacion.Controls.Add(this.buttonEditor3);
-            this.groupBoxPublicacion.Controls.Add(this.buttonEditor2);
-            this.groupBoxPublicacion.Controls.Add(this.buttonEditor1);
-            this.groupBoxPublicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.groupBoxPublicacion.Location = new System.Drawing.Point(26, 134);
-            this.groupBoxPublicacion.Name = "groupBoxPublicacion";
-            this.groupBoxPublicacion.Size = new System.Drawing.Size(821, 239);
-            this.groupBoxPublicacion.TabIndex = 24;
-            this.groupBoxPublicacion.TabStop = false;
-            this.groupBoxPublicacion.Text = "Área Publicación";
-            // 
-            // textBoxEditor1
-            // 
-            this.textBoxEditor1.Location = new System.Drawing.Point(217, 28);
-            this.textBoxEditor1.Name = "textBoxEditor1";
-            this.textBoxEditor1.Size = new System.Drawing.Size(276, 21);
-            this.textBoxEditor1.TabIndex = 21;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label14.Location = new System.Drawing.Point(31, 143);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(88, 16);
-            this.label14.TabIndex = 21;
-            this.label14.Text = "Fecha desde";
-            // 
-            // textBoxEditor2
-            // 
-            this.textBoxEditor2.Location = new System.Drawing.Point(217, 70);
-            this.textBoxEditor2.Name = "textBoxEditor2";
-            this.textBoxEditor2.Size = new System.Drawing.Size(276, 21);
-            this.textBoxEditor2.TabIndex = 24;
-            // 
-            // textBoxEditor3
-            // 
-            this.textBoxEditor3.Location = new System.Drawing.Point(217, 108);
-            this.textBoxEditor3.Name = "textBoxEditor3";
-            this.textBoxEditor3.Size = new System.Drawing.Size(276, 21);
-            this.textBoxEditor3.TabIndex = 25;
-            // 
-            // textBoxRespEdicion
-            // 
-            this.textBoxRespEdicion.Location = new System.Drawing.Point(160, 60);
-            this.textBoxRespEdicion.Name = "textBoxRespEdicion";
-            this.textBoxRespEdicion.Size = new System.Drawing.Size(263, 21);
-            this.textBoxRespEdicion.TabIndex = 22;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label15.Location = new System.Drawing.Point(31, 176);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(42, 16);
-            this.label15.TabIndex = 26;
-            this.label15.Text = "Lugar";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label16.Location = new System.Drawing.Point(370, 140);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(82, 16);
-            this.label16.TabIndex = 27;
-            this.label16.Text = "Fecha hasta";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label17.Location = new System.Drawing.Point(31, 206);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(64, 16);
-            this.label17.TabIndex = 28;
-            this.label17.Text = "Idioma(s)";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label18.Location = new System.Drawing.Point(370, 178);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(35, 16);
-            this.label18.TabIndex = 29;
-            this.label18.Text = "País";
-            // 
-            // textBoxFechaDesde
-            // 
-            this.textBoxFechaDesde.Location = new System.Drawing.Point(180, 140);
-            this.textBoxFechaDesde.Name = "textBoxFechaDesde";
-            this.textBoxFechaDesde.Size = new System.Drawing.Size(129, 21);
-            this.textBoxFechaDesde.TabIndex = 23;
-            // 
-            // textBoxLugar
-            // 
-            this.textBoxLugar.Location = new System.Drawing.Point(180, 173);
-            this.textBoxLugar.Name = "textBoxLugar";
-            this.textBoxLugar.Size = new System.Drawing.Size(129, 21);
-            this.textBoxLugar.TabIndex = 30;
-            // 
-            // textBoxFechaHasta
-            // 
-            this.textBoxFechaHasta.Location = new System.Drawing.Point(483, 140);
-            this.textBoxFechaHasta.Name = "textBoxFechaHasta";
-            this.textBoxFechaHasta.Size = new System.Drawing.Size(129, 21);
-            this.textBoxFechaHasta.TabIndex = 31;
-            // 
-            // comboBoxPais
-            // 
-            this.comboBoxPais.FormattingEnabled = true;
-            this.comboBoxPais.Location = new System.Drawing.Point(483, 176);
-            this.comboBoxPais.Name = "comboBoxPais";
-            this.comboBoxPais.Size = new System.Drawing.Size(129, 23);
-            this.comboBoxPais.TabIndex = 32;
-            // 
-            // comboBoxIdioma
-            // 
-            this.comboBoxIdioma.FormattingEnabled = true;
-            this.comboBoxIdioma.Location = new System.Drawing.Point(180, 210);
-            this.comboBoxIdioma.Name = "comboBoxIdioma";
-            this.comboBoxIdioma.Size = new System.Drawing.Size(129, 23);
-            this.comboBoxIdioma.TabIndex = 33;
-            // 
-            // comboBoxIdioma2
-            // 
-            this.comboBoxIdioma2.FormattingEnabled = true;
-            this.comboBoxIdioma2.Location = new System.Drawing.Point(347, 210);
-            this.comboBoxIdioma2.Name = "comboBoxIdioma2";
-            this.comboBoxIdioma2.Size = new System.Drawing.Size(129, 23);
-            this.comboBoxIdioma2.TabIndex = 34;
-            // 
-            // comboBoxIdioma3
-            // 
-            this.comboBoxIdioma3.FormattingEnabled = true;
-            this.comboBoxIdioma3.Location = new System.Drawing.Point(510, 210);
-            this.comboBoxIdioma3.Name = "comboBoxIdioma3";
-            this.comboBoxIdioma3.Size = new System.Drawing.Size(129, 23);
-            this.comboBoxIdioma3.TabIndex = 35;
+            this.Jerarquia.Width = 180;
             // 
             // EdiciónDocumento
             // 
@@ -1070,6 +1094,7 @@
             this.groupBoxTitulos.PerformLayout();
             this.tabResponsables.ResumeLayout(false);
             this.tabResponsables.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBoxDatosResponsable.ResumeLayout(false);
             this.groupBoxDatosResponsable.PerformLayout();
             this.groupBoxTipoResponsabilidad.ResumeLayout(false);
@@ -1078,11 +1103,11 @@
             this.groupBox2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBoxEdicion.ResumeLayout(false);
-            this.groupBoxEdicion.PerformLayout();
             this.groupBoxPublicacion.ResumeLayout(false);
             this.groupBoxPublicacion.PerformLayout();
+            this.groupBoxEdicion.ResumeLayout(false);
+            this.groupBoxEdicion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUAI_Portada)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1148,9 +1173,6 @@
         private System.Windows.Forms.TextBox textBoxNotas;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Responsabilidad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Jerarquia;
         private System.Windows.Forms.GroupBox groupBoxPublicacion;
         private System.Windows.Forms.ComboBox comboBoxIdioma3;
         private System.Windows.Forms.ComboBox comboBoxIdioma2;
@@ -1176,5 +1198,10 @@
         private System.Windows.Forms.TextBox textBoxEdicion;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
+        private Controles.PictureBoxUAI pictureBoxUAI_Portada;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Responsabilidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Jerarquia;
     }
 }
