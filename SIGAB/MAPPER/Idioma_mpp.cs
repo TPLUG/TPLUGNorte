@@ -45,7 +45,7 @@ namespace MAPPER
         {
             Idioma_en idioma = null;
             AccesoSQLServer sql = new AccesoSQLServer();
-            SqlDataReader dr = sql.EjecutarSP_DR("Idioma_Traer");
+            SqlDataReader dr = sql.EjecutarSP_DR("Idioma_Traer", "cod_idioma", id);
             if (dr.Read())
             {
                 idioma = new Idioma_en();
