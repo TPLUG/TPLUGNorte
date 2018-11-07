@@ -20,11 +20,15 @@ namespace MAPPER
             object[] param3 = { "@registro_estado_cod", i.registroEstadoCod };
             object[] param4 = { "@fecha_ingreso", i.fechaIngreso };
             object[] param5 = { "@fecha_modificacion", i.fechaModificacion };
+            //object[] param6 = { "@operador_ingreso", i.operadorIngreso.cod_operador };
+            //object[] param7 = { "@operador_modificacion", i.operadorModificacion.cod_operador };
             parametros.Add(param1);
             parametros.Add(param2);
             parametros.Add(param3);
             parametros.Add(param4);
             parametros.Add(param5);
+            //parametros.Add(param6);
+            //parametros.Add(param7);
             return sql.EjecutarSP_int("Idioma_Agregar", parametros);
         }
 

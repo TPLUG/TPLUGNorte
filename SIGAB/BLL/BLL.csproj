@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Idioma_bll.cs" />
+    <Compile Include="Moneda_bll.cs" />
+    <Compile Include="NivelBibliografico_bll.cs" />
     <Compile Include="Pais_bll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

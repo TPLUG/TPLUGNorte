@@ -27,5 +27,9 @@ namespace BLL
             return mpp.Traer(id);
         }
 
+        public List<Pais_en> TraerTodos()
+        {
+            return mpp.TraerTodos();
+        }
     }
 }
