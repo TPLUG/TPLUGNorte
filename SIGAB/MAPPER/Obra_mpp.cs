@@ -301,5 +301,19 @@ namespace MAPPER
             Sql = null;
             return ds;
         }
+
+
+        //trae un solo registro 
+        public DataSet TraerDS(int id)
+        {
+            DataSet ds = new DataSet();
+            AccesoSQLServer Sql = new AccesoSQLServer();
+            List<object[]> parametros = new List<object[]>();
+            object[] param1 = { "@cod_Obra", id };
+            parametros.Add(param1);
+            ds = Sql.EjecutarSP_DS("Obra_TraerTodo");
+            Sql = null;
+            return ds;
+        }
     }
 }

@@ -63,13 +63,32 @@ namespace DAL
         public DataSet EjecutarSP_DS(string nombreSP)
         {
             DataSet ds = new DataSet();
-            SqlCommand command = new SqlCommand();            AbrirConexion();
+            SqlCommand command = new SqlCommand();
+            AbrirConexion();
             command.Connection = sqlConnection;
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = nombreSP;
             SqlDataAdapter da = new SqlDataAdapter(command);    
             da.Fill(ds);
             CerrarConexion();       
+            return ds;
+        }
+
+        public DataSet EjecutarSP_DS(string nombreSP, List<object[]> parametros)
+        {
+            DataSet ds = new DataSet();
+            SqlCommand command = new SqlCommand();            AbrirConexion();
+            command.Connection = sqlConnection;
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = nombreSP;
+            foreach (object[] param in parametros)
+            {
+                command.Parameters.AddWithValue(param[0].ToString(), param[1]);
+            }
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            da.Fill(ds);
+            CerrarConexion();
+
             return ds;
         }
 
