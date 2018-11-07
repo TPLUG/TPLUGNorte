@@ -9,35 +9,37 @@ namespace BLL
 {
     public class Obra_bll
     {
-        public void Guardar(ENTIDADES.Obra_en obraEntidad)
+        public int Guardar(ENTIDADES.Obra_en obraEntidad)
         {
             MAPPER.Obra_mpp obraMpp = new MAPPER.Obra_mpp();
-            obraMpp.Guardar(obraEntidad);
+            int a = obraMpp.Agregar(obraEntidad);
             obraMpp = null;
+            return a;
         }
-        public void Borrar(ENTIDADES.Obra_en obraEntidad)
+        public int Borrar(int id)
         {
             MAPPER.Obra_mpp obraMpp = new MAPPER.Obra_mpp();
-            obraMpp.Borrar(obraEntidad);
+            int a = obraMpp.Borrar(id);
             obraMpp = null;
+            return a;
         }   
 
-        public DataSet Traer(ENTIDADES.Obra_en obraEntidad)
+        public ENTIDADES.Obra_en Traer(int id)
         {
             DataSet ds = new DataSet();
             MAPPER.Obra_mpp obraMpp = new MAPPER.Obra_mpp();
-            ds = obraMpp.Traer(obraEntidad);
+            ENTIDADES.Obra_en obra = obraMpp.Traer(id);
             obraMpp = null;
-            return ds;
+            return obra;
         }
 
-        public DataSet TraerTodo()
+        public List<ENTIDADES.Obra_en> TraerTodo()
         {
             DataSet ds = new DataSet();
             MAPPER.Obra_mpp obraMpp = new MAPPER.Obra_mpp();
-            ds = obraMpp.TraerTodo();
+            List < ENTIDADES.Obra_en > obras = obraMpp.TraerTodo();
             obraMpp = null;
-            return ds;
+            return obras;
         }
     }
 }

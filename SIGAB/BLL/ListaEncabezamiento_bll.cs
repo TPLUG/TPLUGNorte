@@ -9,35 +9,37 @@ namespace BLL
 {
     public class ListaEncabezamiento_bll
     {
-        public void Guardar(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
+        public int Agregar(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
         {
             MAPPER.ListaEncabezamiento_mpp encabezadoMpp = new MAPPER.ListaEncabezamiento_mpp();
-            encabezadoMpp.Guardar(encabezadoEntidad);
+            int a = encabezadoMpp.Agregar(encabezadoEntidad);
             encabezadoMpp = null;
+            return a;
         }
-        public void Borrar(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
+        public int Borrar(int id)
         {
             MAPPER.ListaEncabezamiento_mpp encabezadoMpp = new MAPPER.ListaEncabezamiento_mpp();
-            encabezadoMpp.Borrar(encabezadoEntidad);
+            int a = encabezadoMpp.Borrar(id);
             encabezadoMpp = null;
+            return a;
         }
 
-        public DataSet Traer(ENTIDADES.ListaEncabezamiento_en encabezadoEntidad)
+        public ENTIDADES.ListaEncabezamiento_en Traer(int id)
         {
             DataSet ds = new DataSet();
             MAPPER.ListaEncabezamiento_mpp encabezadoMpp = new MAPPER.ListaEncabezamiento_mpp();
-            ds = encabezadoMpp.Traer(encabezadoEntidad);
+            ENTIDADES.ListaEncabezamiento_en encabezado = encabezadoMpp.Traer(id);
             encabezadoMpp = null;
-            return ds;
+            return encabezado;
         }
 
-        public DataSet TraerTodo()
+        public List<ENTIDADES.ListaEncabezamiento_en> TraerTodo()
         {
             DataSet ds = new DataSet();
             MAPPER.ListaEncabezamiento_mpp encabezadoMpp = new MAPPER.ListaEncabezamiento_mpp();
-            ds = encabezadoMpp.TraerTodo();
+            List< ENTIDADES.ListaEncabezamiento_en > encabezados = encabezadoMpp.TraerTodo();
             encabezadoMpp = null;
-            return ds;
+            return encabezados;
         }
     }
 }
