@@ -33,13 +33,13 @@ namespace BLL
             return obra;
         }
 
-        public List<ENTIDADES.Obra_en> TraerTodo()
+        public DataSet TraerTodo()
         {
             DataSet ds = new DataSet();
             MAPPER.Obra_mpp obraMpp = new MAPPER.Obra_mpp();
-            List < ENTIDADES.Obra_en > obras = obraMpp.TraerTodo();
+            DataSet  obrasDs = obraMpp.TraerTodo();
             obraMpp = null;
-            return obras;
+            return obrasDs;
         }
     }
 }
