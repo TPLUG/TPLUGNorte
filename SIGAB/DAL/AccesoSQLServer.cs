@@ -80,10 +80,16 @@ namespace DAL
             return dataSet;
         }
 
-        // Terminar
-        public DataSet EjecutarSP_DS()
+        public DataSet EjecutarSP_DS(string nombreSP)
         {
             DataSet ds = new DataSet();
+            SqlCommand command = new SqlCommand();            AbrirConexion();
+            command.Connection = sqlConnection;
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = nombreSP;
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            da.Fill(ds);
+            CerrarConexion();
             return ds;
         }
 
