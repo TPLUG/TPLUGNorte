@@ -21,12 +21,12 @@ namespace MAPPER
             object[] param3 = { "@cod_coleccion", obra.codColeccion };
             object[] param4 = { "@cod_tipo_obra", obra.codTipoObra };
             object[] param5 = { "@cod_Soporte", obra.codSoporte };
-            object[] param6 = { "@cod_encabezamiento", obra.Encabezado.codEncabezamiento};
+            object[] param6 = { "@cod_encabezamiento", obra.codEncabezado};
             object[] param7 = { "@titulo_corto", obra.tituloCorto };
             object[] param8 = { "@titulo", obra.titulo };
             object[] param9 = { "@titulo_uniforme", obra.tituloUniforme };
             object[] param10 = { "@edicion", obra.edicion };
-            object[] param11 = { "@cod_ais", obra.codPais };
+            object[] param11 = { "@cod_pais", obra.codPais };
             object[] param12 = { "@frecuencia", obra.frecuencia };
             object[] param13 = { "@lugar", obra.lugar};
             object[] param14 = { "@fecha_edicion_inicio", obra.fechaEdicionInicio };
@@ -137,20 +137,160 @@ namespace MAPPER
 
             return sql.EjecutarSP_int("Obra_Agregar", parametros);
         }
-        public void Borrar(ENTIDADES.Obra_en obra)
+        public int Borrar(int id)
         {
-
+            AccesoSQLServer sql = new AccesoSQLServer();
+            List<object[]> parametros = new List<object[]>();
+            object[] param1 = { "@cod_Obra", id };
+            parametros.Add(param1);
+            return sql.EjecutarSP_int("Obra_Borrar", parametros);
         }
 
-        public DataSet Traer(ENTIDADES.Obra_en obra)
+        public Obra_en Traer(int id)
         {
-            DataSet ds = new DataSet();
-            return ds;
+            Obra_en obra = null;
+            AccesoSQLServer sql = new AccesoSQLServer();
+            SqlDataReader dr = sql.EjecutarSP_DR("Obra_Traer"/*,id*/);
+            if (dr.Read())
+            {
+                obra = new Obra_en();
+                
+
+                obra.codObra = Convert.ToInt32(dr["cod_obra"]);
+                obra.codNivelBibliografico = Convert.ToInt32(dr["cod_nivel_bibliografico"]);
+                obra.codColeccion = Convert.ToInt32(dr["cod_coleccion"]);
+                obra.codTipoObra = Convert.ToInt32(dr["cod_tipo_obra"]);
+                obra.codSoporte  = Convert.ToInt32(dr["@cod_Soporte"]);
+                obra.codEncabezado = Convert.ToInt32(dr["cod_encabezamiento"]);
+                obra.tituloCorto = dr["@titulo_corto"].ToString();
+                obra.titulo = dr["titulo"].ToString();
+                obra.tituloUniforme =dr["titulo_uniforme"].ToString();
+                obra.edicion = dr["edicion"].ToString();
+                obra.codPais= Convert.ToInt32(dr["cod_pais"]);
+                obra.frecuencia = dr["frecuencia"].ToString();
+                obra.lugar = dr["lugar"].ToString();
+                obra.fechaEdicionInicio = Convert.ToDateTime(dr["fecha_edicion_inicio"]);
+                obra.fechaEdicionFinal = Convert.ToDateTime( dr["fecha_edicion_final"]);
+                obra.preliminares = dr["preliminares"].ToString();
+                obra.extencion = Convert.ToInt32(dr["extencion"]);
+                obra.codExtencion = Convert.ToInt32(dr["cod_extencion"]);
+                obra.extencionSecundaria = Convert.ToInt32(dr["extencion_secundaria"]);
+                obra.extencionSecundariaUnidad = Convert.ToInt32(dr["extencion_secundaria_unidad"]);
+                obra.ilustracion = dr["ilustracion"].ToString();
+                obra.alto = Convert.ToInt32(dr["alto"]);
+                obra.ancho = Convert.ToInt32(dr["ancho"]);
+                obra.profundidad = Convert.ToInt32(dr["profundidad"]);
+                obra.unidad = Convert.ToInt32(dr["unidad"]);
+                obra.complemento = dr["complemento"].ToString();
+                obra.obraPadre.codObra = Convert.ToInt32(dr["obra_padre"]);
+                obra.ordenColeccion = Convert.ToInt32(dr["orden_coleccion"]);
+                obra.serieInicio = Convert.ToInt32(dr["serie_inicio"]);
+                obra.serieFin = Convert.ToInt32(dr["serie_fin"]);
+                obra.serieAnoReal = Convert.ToInt32(dr["serie_ano_real"]);
+                obra.serieAnoInterno = Convert.ToInt32(dr["serie_ano_interno"]);
+                obra.serieVolumen = dr["serie_volumen"].ToString();
+                obra.areaEspecifica = dr["area_specifica"].ToString();
+                obra.epocaInicio = Convert.ToInt32(dr["epoca_inicio"]);
+                obra.epocaFin = Convert.ToInt32(dr["epoca_fin"]);
+                obra.notas = dr["notas"].ToString();
+                obra.resumen = dr["resumen"].ToString();
+                obra.resumenIdioma = dr["resumen_idioma"].ToString();
+                obra.tituloOriginal = dr["titulo_original"].ToString();
+                obra.tituloOriginalIdioma = dr["titulo_original_idioma"].ToString();
+                obra.isbn = dr["isbn"].ToString();
+                obra.coden = dr["coden"].ToString();
+                obra.otros = dr["otros"].ToString();
+                obra.observaciones = dr["observaciones"].ToString();
+                obra.codEstado = Convert.ToInt32(dr["cod_estado"]);
+                obra.codHabilitacion = Convert.ToInt32(dr["cod_habilitacion"]);
+                obra.destino = dr["destino"].ToString();
+                obra.extra = dr["extra"].ToString();
+                obra.citaHTML = dr["cita_html"].ToString();
+                obra.cantidadEjemplar = Convert.ToInt32(dr["cantidad_ejemplar"]);
+                obra.cantidadImagen = Convert.ToInt32(dr["cantidad_imagen"]);
+                obra.tieneTextoCompleto = Convert.ToInt32(dr["tiene_texto_completo"]);
+                obra.registroEstadoCod= Convert.ToInt32(dr["registro_estado_cod"]);
+                obra.fechaIngreso = Convert.ToDateTime(dr["fecha_ingreso"]);
+                obra.fechaModificacion = Convert.ToDateTime(dr["fecha_modificacion"]);
+                obra.codOperadorIngreso = Convert.ToInt32(dr["cod_operador_ingreso"]);
+                obra.codOperadorModif = Convert.ToInt32(dr["cod_operador_modif"]);
+                obra.extra = dr["extra"].ToString();
+            }
+            return obra;
         }
-        public DataSet TraerTodo()
+        public List<Obra_en> TraerTodo()
         {
-            DataSet ds = new DataSet();
-            return ds;
+            List<Obra_en> obras = new List<Obra_en>();
+            Obra_en obra = null;
+            AccesoSQLServer sql = new AccesoSQLServer();
+            SqlDataReader dr = sql.EjecutarSP_DR("Obra_TraerTodo");
+            if (dr.Read())
+            {
+                obra = new Obra_en();
+
+
+                obra.codObra = Convert.ToInt32(dr["cod_obra"]);
+                obra.codNivelBibliografico = Convert.ToInt32(dr["cod_nivel_bibliografico"]);
+                obra.codColeccion = Convert.ToInt32(dr["cod_coleccion"]);
+                obra.codTipoObra = Convert.ToInt32(dr["cod_tipo_obra"]);
+                obra.codSoporte = Convert.ToInt32(dr["@cod_Soporte"]);
+                obra.codEncabezado = Convert.ToInt32(dr["cod_encabezamiento"]);
+                obra.tituloCorto = dr["@titulo_corto"].ToString();
+                obra.titulo = dr["titulo"].ToString();
+                obra.tituloUniforme = dr["titulo_uniforme"].ToString();
+                obra.edicion = dr["edicion"].ToString();
+                obra.codPais = Convert.ToInt32(dr["cod_pais"]);
+                obra.frecuencia = dr["frecuencia"].ToString();
+                obra.lugar = dr["lugar"].ToString();
+                obra.fechaEdicionInicio = Convert.ToDateTime(dr["fecha_edicion_inicio"]);
+                obra.fechaEdicionFinal = Convert.ToDateTime(dr["fecha_edicion_final"]);
+                obra.preliminares = dr["preliminares"].ToString();
+                obra.extencion = Convert.ToInt32(dr["extencion"]);
+                obra.codExtencion = Convert.ToInt32(dr["cod_extencion"]);
+                obra.extencionSecundaria = Convert.ToInt32(dr["extencion_secundaria"]);
+                obra.extencionSecundariaUnidad = Convert.ToInt32(dr["extencion_secundaria_unidad"]);
+                obra.ilustracion = dr["ilustracion"].ToString();
+                obra.alto = Convert.ToInt32(dr["alto"]);
+                obra.ancho = Convert.ToInt32(dr["ancho"]);
+                obra.profundidad = Convert.ToInt32(dr["profundidad"]);
+                obra.unidad = Convert.ToInt32(dr["unidad"]);
+                obra.complemento = dr["complemento"].ToString();
+                obra.obraPadre.codObra = Convert.ToInt32(dr["obra_padre"]);
+                obra.ordenColeccion = Convert.ToInt32(dr["orden_coleccion"]);
+                obra.serieInicio = Convert.ToInt32(dr["serie_inicio"]);
+                obra.serieFin = Convert.ToInt32(dr["serie_fin"]);
+                obra.serieAnoReal = Convert.ToInt32(dr["serie_ano_real"]);
+                obra.serieAnoInterno = Convert.ToInt32(dr["serie_ano_interno"]);
+                obra.serieVolumen = dr["serie_volumen"].ToString();
+                obra.areaEspecifica = dr["area_specifica"].ToString();
+                obra.epocaInicio = Convert.ToInt32(dr["epoca_inicio"]);
+                obra.epocaFin = Convert.ToInt32(dr["epoca_fin"]);
+                obra.notas = dr["notas"].ToString();
+                obra.resumen = dr["resumen"].ToString();
+                obra.resumenIdioma = dr["resumen_idioma"].ToString();
+                obra.tituloOriginal = dr["titulo_original"].ToString();
+                obra.tituloOriginalIdioma = dr["titulo_original_idioma"].ToString();
+                obra.isbn = dr["isbn"].ToString();
+                obra.coden = dr["coden"].ToString();
+                obra.otros = dr["otros"].ToString();
+                obra.observaciones = dr["observaciones"].ToString();
+                obra.codEstado = Convert.ToInt32(dr["cod_estado"]);
+                obra.codHabilitacion = Convert.ToInt32(dr["cod_habilitacion"]);
+                obra.destino = dr["destino"].ToString();
+                obra.extra = dr["extra"].ToString();
+                obra.citaHTML = dr["cita_html"].ToString();
+                obra.cantidadEjemplar = Convert.ToInt32(dr["cantidad_ejemplar"]);
+                obra.cantidadImagen = Convert.ToInt32(dr["cantidad_imagen"]);
+                obra.tieneTextoCompleto = Convert.ToInt32(dr["tiene_texto_completo"]);
+                obra.registroEstadoCod = Convert.ToInt32(dr["registro_estado_cod"]);
+                obra.fechaIngreso = Convert.ToDateTime(dr["fecha_ingreso"]);
+                obra.fechaModificacion = Convert.ToDateTime(dr["fecha_modificacion"]);
+                obra.codOperadorIngreso = Convert.ToInt32(dr["cod_operador_ingreso"]);
+                obra.codOperadorModif = Convert.ToInt32(dr["cod_operador_modif"]);
+                obra.extra = dr["extra"].ToString();
+                obras.Add(obra);
+            }
+            return obras;
         }
     }
 }

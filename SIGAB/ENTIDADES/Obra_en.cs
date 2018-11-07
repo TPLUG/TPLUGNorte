@@ -13,7 +13,7 @@ namespace ENTIDADES
         public int codColeccion { get; set; }   //Ver que hacen con Lista_tipocoleccion
         public int codTipoObra { get; set; }    //Ver que hacen con Lista_obra
         public int codSoporte { get; set; } // Ver que hacen con Lista_soporte
-        public ListaEncabezamiento_en Encabezado { get; set; } // desconosco si dejarlo asi o solamente meterlo como un int y mandarle codEncabezado como muestra en la tabla
+        public int codEncabezado { get; set; } // desconosco si dejarlo asi o solamente meterlo como un int y mandarle codEncabezado como muestra en la tabla
         public string tituloCorto { get; set; }
         public string titulo { get; set; }
         public string tituloUniforme { get; set; }

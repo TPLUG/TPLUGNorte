@@ -28,7 +28,7 @@ namespace MAPPER
             List<object[]> parametros = new List<object[]>();
             object[] param1 = { "@cod_encabezamiento", id };           
             parametros.Add(param1);
-            return sql.EjecutarSP_int("Lista_Encabezamiento_Agregar", parametros);
+            return sql.EjecutarSP_int("Lista_Encabezamiento_Borrar", parametros);
         }
 
         public ListaEncabezamiento_en Traer(int id)
