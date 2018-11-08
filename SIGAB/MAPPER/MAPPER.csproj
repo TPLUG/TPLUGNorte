@@ -40,7 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coleccion_mpp.cs" />
+    <Compile Include="Idioma_mpp.cs" />
+    <Compile Include="Moneda_mpp.cs" />
+    <Compile Include="NivelBibliografico_mpp.cs" />
+    <Compile Include="Operador_mpp.cs" />
+    <Compile Include="Pais_mpp.cs" />
+    <Compile Include="PatenteRol_mpp.cs" />
+    <Compile Include="ListaEncabezamiento_mpp.cs" />
+    <Compile Include="Obra_mpp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rol_mpp.cs" />
+    <Compile Include="Soporte_mpp.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
