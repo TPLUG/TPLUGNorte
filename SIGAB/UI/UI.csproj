@@ -64,6 +64,12 @@
     <Compile Include="AuxiliarConsultaAvanzadaRecuperacionDocumentos.Designer.cs">
       <DependentUpon>AuxiliarConsultaAvanzadaRecuperacionDocumentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="AyudaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaForm.Designer.cs">
+      <DependentUpon>AyudaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusquedaInventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,24 @@
     <Compile Include="Container.Designer.cs">
       <DependentUpon>Container.cs</DependentUpon>
     </Compile>
+    <Compile Include="Edicion item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edicion item.Designer.cs">
+      <DependentUpon>Edicion item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicionDeMaterias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicionDeMaterias.Designer.cs">
+      <DependentUpon>EdicionDeMaterias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicióndeAutoridades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicióndeAutoridades.Designer.cs">
+      <DependentUpon>EdicióndeAutoridades.cs</DependentUpon>
+    </Compile>
     <Compile Include="EdiciónDocumento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +144,9 @@
     <EmbeddedResource Include="AuxiliarConsultaAvanzadaRecuperacionDocumentos.resx">
       <DependentUpon>AuxiliarConsultaAvanzadaRecuperacionDocumentos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AyudaForm.resx">
+      <DependentUpon>AyudaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BusquedaInventario.resx">
       <DependentUpon>BusquedaInventario.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +161,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Container.resx">
       <DependentUpon>Container.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edicion item.resx">
+      <DependentUpon>Edicion item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicionDeMaterias.resx">
+      <DependentUpon>EdicionDeMaterias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdicióndeAutoridades.resx">
+      <DependentUpon>EdicióndeAutoridades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EdiciónDocumento.resx">
       <DependentUpon>EdiciónDocumento.cs</DependentUpon>

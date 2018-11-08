@@ -94,13 +94,13 @@ namespace DAL
             return ds;
         }
 
-        /** Ejecuta un StoredProcedure y devuelve un entero que representa
-         *  si la operación se realizo con éxito.
-         *  Se utiliza para sentencias insert y update.
-         *  
-         *  parametros es una lista de arrays de la siguiente forma:
-         *  [Nombre parametro, valor parametro]
-         * */
+        /// <summary>
+        /// Ejecuta un StoredProcedure y devuelve un entero que representa
+        /// si la operación se realizo con éxito.
+        /// </summary>
+        /// <param name="nombreSP">Nombre del SP.</param>
+        /// <param name="parametros">lista de arrays de la forma [Nombre parametro, valor parametro].</param>
+        /// <returns>Un SqlDataReader.</returns>
         public int EjecutarSP_int(string nombreSP, List<object[]> parametros)
         {
             int resultado = 0;
