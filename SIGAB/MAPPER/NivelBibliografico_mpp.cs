@@ -15,7 +15,9 @@ namespace MAPPER
         {
             NivelBibliografico_en nivel = null;
             AccesoSQLServer sql = new AccesoSQLServer();
-            SqlDataReader dr = sql.EjecutarSP_DR("Lista_nivel_bibliografico_Traer");
+            string sp = "Lista_nivel_bibliografico_Traer";
+            string paramName = "cod_nivel_bibliografico";
+            SqlDataReader dr = sql.EjecutarSP_DR(sp, paramName, id);
             if (dr.Read())
             {
                 nivel = new NivelBibliografico_en();
