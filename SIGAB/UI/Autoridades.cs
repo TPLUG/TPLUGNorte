@@ -29,7 +29,7 @@ namespace UI
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-
+            this.Dispose();
         }
 
         private void Autoridades_Load(object sender, EventArgs e)

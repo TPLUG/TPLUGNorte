@@ -17,7 +17,18 @@ namespace UI
             InitializeComponent();
         }
 
-      
+        private void búsquedaPorSignaturaTopográficaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BusquedaSignaturaTopografica busquedaST = new BusquedaSignaturaTopografica();
+            busquedaST.MdiParent = this;
+            busquedaST.Show();
+        }
 
+        private void autoridadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Autoridades autoridadUI = new Autoridades();
+            autoridadUI.MdiParent = this;
+            autoridadUI.Show();
+        }
     }
 }

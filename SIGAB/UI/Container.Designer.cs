@@ -135,7 +135,7 @@
             this.materiasToolStripMenuItem,
             this.tesauroToolStripMenuItem});
             this.procesosTécnicosToolStripMenuItem.Name = "procesosTécnicosToolStripMenuItem";
-            this.procesosTécnicosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.procesosTécnicosToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.procesosTécnicosToolStripMenuItem.Text = "Procesos Técnicos";
             // 
             // documentosToolStripMenuItem
@@ -151,6 +151,7 @@
             this.autoridadesToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.autoridadesToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.autoridadesToolStripMenuItem.Text = "Autoridades";
+            this.autoridadesToolStripMenuItem.Click += new System.EventHandler(this.autoridadesToolStripMenuItem_Click);
             // 
             // materiasToolStripMenuItem
             // 
@@ -169,14 +170,14 @@
             // 
             this.personasToolStripMenuItem.Name = "personasToolStripMenuItem";
             this.personasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.personasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.personasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.personasToolStripMenuItem.Text = "Personas";
             // 
             // tablasToolStripMenuItem
             // 
             this.tablasToolStripMenuItem.Name = "tablasToolStripMenuItem";
             this.tablasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.tablasToolStripMenuItem.Text = "Tablas";
             // 
             // consultasToolStripMenuItem
@@ -216,6 +217,7 @@
             this.búsquedaPorSignaturaTopográficaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.búsquedaPorSignaturaTopográficaToolStripMenuItem.Size = new System.Drawing.Size(306, 22);
             this.búsquedaPorSignaturaTopográficaToolStripMenuItem.Text = "Búsqueda por Signatura Topográfica";
+            this.búsquedaPorSignaturaTopográficaToolStripMenuItem.Click += new System.EventHandler(this.búsquedaPorSignaturaTopográficaToolStripMenuItem_Click);
             // 
             // circulaciónToolStripMenuItem
             // 
@@ -356,7 +358,7 @@
             // porApellidoToolStripMenuItem1
             // 
             this.porApellidoToolStripMenuItem1.Name = "porApellidoToolStripMenuItem1";
-            this.porApellidoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.porApellidoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.porApellidoToolStripMenuItem1.Text = "Por Apellido";
             // 
             // fichasYCatálogosToolStripMenuItem
@@ -548,13 +550,13 @@
             // minimizarTodasToolStripMenuItem
             // 
             this.minimizarTodasToolStripMenuItem.Name = "minimizarTodasToolStripMenuItem";
-            this.minimizarTodasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.minimizarTodasToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.minimizarTodasToolStripMenuItem.Text = "Minimizar Todas";
             // 
             // restaurarTodasToolStripMenuItem
             // 
             this.restaurarTodasToolStripMenuItem.Name = "restaurarTodasToolStripMenuItem";
-            this.restaurarTodasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.restaurarTodasToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.restaurarTodasToolStripMenuItem.Text = "Restaurar Todas";
             // 
             // ayudaToolStripMenuItem
@@ -625,6 +627,7 @@
             this.Text = "Gestión Profesional de Bibliotecas";
             this.TopMost = true;
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStripUAI1.ResumeLayout(false);
             this.menuStripUAI1.PerformLayout();
             this.ResumeLayout(false);

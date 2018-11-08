@@ -303,7 +303,7 @@ namespace MAPPER
         }
 
 
-        //trae un solo registro 
+        //trae un solo registro utilizando dataset
         public DataSet TraerDS(int id)
         {
             DataSet ds = new DataSet();
