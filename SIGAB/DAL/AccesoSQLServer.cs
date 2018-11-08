@@ -83,7 +83,8 @@ namespace DAL
         public DataSet EjecutarSP_DS(string nombreSP)
         {
             DataSet ds = new DataSet();
-            SqlCommand command = new SqlCommand();            AbrirConexion();
+            SqlCommand command = new SqlCommand();
+            AbrirConexion();
             command.Connection = sqlConnection;
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = nombreSP;
