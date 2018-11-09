@@ -29,32 +29,24 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Materias));
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.buttonUAI1 = new Controles.ButtonUAI();
+            this.buttonUAI2 = new Controles.ButtonUAI();
+            this.buttonUAI3 = new Controles.ButtonUAI();
+            this.buttonUAI4 = new Controles.ButtonUAI();
+            this.buttonUAI5 = new Controles.ButtonUAI();
+            this.btnInicio = new Controles.ButtonUAI();
+            this.btnAnterior = new Controles.ButtonUAI();
+            this.btnSiguiente = new Controles.ButtonUAI();
+            this.btnFinal = new Controles.ButtonUAI();
+            this.btnRecarga = new Controles.ButtonUAI();
+            this.txtBoxBusqueda = new Controles.TextBoxUAI();
+            this.dgw = new Controles.DataGridViewUAI();
+            ((System.ComponentModel.ISupportInitialize)(this.dgw)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 52);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(950, 396);
-            this.dataGridView1.TabIndex = 0;
             // 
             // label1
             // 
@@ -64,13 +56,6 @@
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "Búsqueda";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(75, 489);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(887, 20);
-            this.textBox1.TabIndex = 11;
             // 
             // groupBox1
             // 
@@ -90,102 +75,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "  ";
             // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(780, 454);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(182, 23);
-            this.button9.TabIndex = 14;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(592, 454);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(182, 23);
-            this.button8.TabIndex = 9;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(399, 455);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(187, 23);
-            this.button7.TabIndex = 8;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(206, 455);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(187, 23);
-            this.button6.TabIndex = 7;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(13, 455);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(187, 23);
-            this.button5.TabIndex = 6;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(887, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 36);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Salir";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(634, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(69, 36);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Borrar";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(161, 10);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(59, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Ver";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(88, 11);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 34);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Editar";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevo.Location = new System.Drawing.Point(12, 11);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(70, 34);
-            this.btnNuevo.TabIndex = 1;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            // 
             // groupBox3
             // 
             this.groupBox3.Location = new System.Drawing.Point(541, 516);
@@ -195,55 +84,164 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "  ";
             // 
+            // buttonUAI1
+            // 
+            this.buttonUAI1.Location = new System.Drawing.Point(12, 13);
+            this.buttonUAI1.Name = "buttonUAI1";
+            this.buttonUAI1.Size = new System.Drawing.Size(75, 32);
+            this.buttonUAI1.TabIndex = 16;
+            this.buttonUAI1.Text = "Nuevo";
+            this.buttonUAI1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonUAI1.UseVisualStyleBackColor = true;
+            // 
+            // buttonUAI2
+            // 
+            this.buttonUAI2.Location = new System.Drawing.Point(113, 14);
+            this.buttonUAI2.Name = "buttonUAI2";
+            this.buttonUAI2.Size = new System.Drawing.Size(75, 31);
+            this.buttonUAI2.TabIndex = 17;
+            this.buttonUAI2.Text = "Editar";
+            this.buttonUAI2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonUAI2.UseVisualStyleBackColor = true;
+            // 
+            // buttonUAI3
+            // 
+            this.buttonUAI3.Location = new System.Drawing.Point(216, 14);
+            this.buttonUAI3.Name = "buttonUAI3";
+            this.buttonUAI3.Size = new System.Drawing.Size(75, 31);
+            this.buttonUAI3.TabIndex = 18;
+            this.buttonUAI3.Text = "Ver";
+            this.buttonUAI3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonUAI3.UseVisualStyleBackColor = true;
+            // 
+            // buttonUAI4
+            // 
+            this.buttonUAI4.Location = new System.Drawing.Point(652, 17);
+            this.buttonUAI4.Name = "buttonUAI4";
+            this.buttonUAI4.Size = new System.Drawing.Size(75, 31);
+            this.buttonUAI4.TabIndex = 19;
+            this.buttonUAI4.Text = "Borrar";
+            this.buttonUAI4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonUAI4.UseVisualStyleBackColor = true;
+            // 
+            // buttonUAI5
+            // 
+            this.buttonUAI5.Location = new System.Drawing.Point(887, 17);
+            this.buttonUAI5.Name = "buttonUAI5";
+            this.buttonUAI5.Size = new System.Drawing.Size(75, 31);
+            this.buttonUAI5.TabIndex = 20;
+            this.buttonUAI5.Text = "Salir";
+            this.buttonUAI5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonUAI5.UseVisualStyleBackColor = true;
+            // 
+            // btnInicio
+            // 
+            this.btnInicio.Location = new System.Drawing.Point(12, 454);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(184, 23);
+            this.btnInicio.TabIndex = 21;
+            this.btnInicio.Text = " ";
+            this.btnInicio.UseVisualStyleBackColor = true;
+            // 
+            // btnAnterior
+            // 
+            this.btnAnterior.Location = new System.Drawing.Point(202, 455);
+            this.btnAnterior.Name = "btnAnterior";
+            this.btnAnterior.Size = new System.Drawing.Size(184, 23);
+            this.btnAnterior.TabIndex = 22;
+            this.btnAnterior.Text = " ";
+            this.btnAnterior.UseVisualStyleBackColor = true;
+            // 
+            // btnSiguiente
+            // 
+            this.btnSiguiente.Location = new System.Drawing.Point(392, 454);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(184, 23);
+            this.btnSiguiente.TabIndex = 23;
+            this.btnSiguiente.Text = " ";
+            this.btnSiguiente.UseVisualStyleBackColor = true;
+            // 
+            // btnFinal
+            // 
+            this.btnFinal.Location = new System.Drawing.Point(582, 454);
+            this.btnFinal.Name = "btnFinal";
+            this.btnFinal.Size = new System.Drawing.Size(184, 23);
+            this.btnFinal.TabIndex = 24;
+            this.btnFinal.Text = " ";
+            this.btnFinal.UseVisualStyleBackColor = true;
+            // 
+            // btnRecarga
+            // 
+            this.btnRecarga.Location = new System.Drawing.Point(778, 454);
+            this.btnRecarga.Name = "btnRecarga";
+            this.btnRecarga.Size = new System.Drawing.Size(184, 23);
+            this.btnRecarga.TabIndex = 25;
+            this.btnRecarga.Text = " ";
+            this.btnRecarga.UseVisualStyleBackColor = true;
+            // 
+            // txtBoxBusqueda
+            // 
+            this.txtBoxBusqueda.Location = new System.Drawing.Point(74, 494);
+            this.txtBoxBusqueda.Name = "txtBoxBusqueda";
+            this.txtBoxBusqueda.Size = new System.Drawing.Size(887, 20);
+            this.txtBoxBusqueda.TabIndex = 26;
+            // 
+            // dgw
+            // 
+            this.dgw.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgw.Location = new System.Drawing.Point(12, 52);
+            this.dgw.Name = "dgw";
+            this.dgw.Size = new System.Drawing.Size(950, 397);
+            this.dgw.TabIndex = 27;
+            // 
             // Materias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(967, 550);
+            this.Controls.Add(this.dgw);
+            this.Controls.Add(this.txtBoxBusqueda);
+            this.Controls.Add(this.btnRecarga);
+            this.Controls.Add(this.btnFinal);
+            this.Controls.Add(this.btnSiguiente);
+            this.Controls.Add(this.btnAnterior);
+            this.Controls.Add(this.btnInicio);
+            this.Controls.Add(this.buttonUAI5);
+            this.Controls.Add(this.buttonUAI4);
+            this.Controls.Add(this.buttonUAI3);
+            this.Controls.Add(this.buttonUAI2);
+            this.Controls.Add(this.buttonUAI1);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.button9);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnNuevo);
-            this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Materias";
             this.Text = "Materias";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgw)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnNuevo;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.GroupBox groupBox3;
+        private Controles.ButtonUAI buttonUAI1;
+        private Controles.ButtonUAI buttonUAI2;
+        private Controles.ButtonUAI buttonUAI3;
+        private Controles.ButtonUAI buttonUAI4;
+        private Controles.ButtonUAI buttonUAI5;
+        private Controles.ButtonUAI btnInicio;
+        private Controles.ButtonUAI btnAnterior;
+        private Controles.ButtonUAI btnSiguiente;
+        private Controles.ButtonUAI btnFinal;
+        private Controles.ButtonUAI btnRecarga;
+        private Controles.TextBoxUAI txtBoxBusqueda;
+        private Controles.DataGridViewUAI dgw;
     }
 }
 
