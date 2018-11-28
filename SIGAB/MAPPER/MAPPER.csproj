@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bitacora_mpp.cs" />
+    <Compile Include="Clasificador_mpp.cs" />
     <Compile Include="Coleccion_mpp.cs" />
     <Compile Include="Idioma_mpp.cs" />
+    <Compile Include="ListaTipoClasificador_mpp.cs" />
     <Compile Include="Moneda_mpp.cs" />
     <Compile Include="NivelBibliografico_mpp.cs" />
+    <Compile Include="ObraClasificador_mpp.cs" />
     <Compile Include="Operador_mpp.cs" />
     <Compile Include="Pais_mpp.cs" />
     <Compile Include="PatenteRol_mpp.cs" />

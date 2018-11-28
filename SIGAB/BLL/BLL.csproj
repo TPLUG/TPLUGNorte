@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bitacora_bll.cs" />
+    <Compile Include="Clasificador_bll.cs" />
     <Compile Include="Coleccion_bll.cs" />
     <Compile Include="Idioma_bll.cs" />
+    <Compile Include="ListaTipoClasificador_bll.cs" />
     <Compile Include="Moneda_bll.cs" />
     <Compile Include="NivelBibliografico_bll.cs" />
+    <Compile Include="ObraClasificador_bll.cs" />
     <Compile Include="Operador_bll.cs" />
     <Compile Include="Pais_bll.cs" />
     <Compile Include="PatenteRol_bll.cs" />

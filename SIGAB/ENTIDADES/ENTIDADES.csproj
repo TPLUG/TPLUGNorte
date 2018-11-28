@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bitacora_en.cs" />
+    <Compile Include="Clasificador_en.cs" />
     <Compile Include="ListaEncabezamiento_en.cs" />
+    <Compile Include="ListaTipoClasificador_en.cs" />
+    <Compile Include="ObraClasificador_en.cs" />
     <Compile Include="Obra_en.cs" />
     <Compile Include="Coleccion_en.cs" />
     <Compile Include="Idioma_en.cs" />
